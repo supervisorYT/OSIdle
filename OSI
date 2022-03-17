@@ -8,82 +8,96 @@ Version: 2
  
 Settings
 
-building cost increase: 110%
-building cost refund: 44%
+ building cost increase: 110%
+ building cost refund: 44%
 
-background:https://s1.postimg.org/9rs9xp1kcv/background_black.png
+ background:https://s1.postimg.org/9rs9xp1kcv/background_black.png
+ 
+ spritesheet:debug, 48 by 48, https://raw.githubusercontent.com/supervisorYT/OSIdle/main/debug.png
+ spritesheet:icons, 48 by 48, https://raw.githubusercontent.com/supervisorYT/OSIdle/main/icons.png
 
-stylesheet:https://pastebin.com/raw/xwYbuBQN
+ stylesheet:https://pastebin.com/raw/xwYbuBQN
 
 Buttons
-*clickablebooster
+ *clickablebooster
 
-name:The Booster
+  name:The Booster
 
-desc:B
+  desc:B
 
-on click:yield 1 boost
+  on click:yield 1 boost
 
-class:bigButton
+  class:bigButton
 
-Icon:https://i.imgur.com/1WIFxhd.png
+  Icon:https://i.imgur.com/1WIFxhd.png
 
-tooltip origin:bottom
-tooltip class:red
+  tooltip origin:bottom
+  tooltip class:red
 
-show clicks
+  show clicks
 
 Resources
-*boost
+ *boost
 
-name:Boost Clicks
+  name:Boost Clicks
 
-desc:It may not affect on early game, however it would be must-need resource mid-game!
+  desc:It may not affect on early game, however it would be must-need resource mid-game!
 
-Icon:
+  Icon:
 
-*flop
+ *flop
 
-name:Perfomance Currency
+  name:Perfomance Currency
 
-desc:The power of FLOPs, bangwidth, and system stats shows it's pride. Effectively, it's transformed to the currency. Do the Personal Computing.
+  desc:The power of FLOPs, bangwidth, and system stats shows it's pride. Effectively, it's transformed to the currency. Do the Personal Computing.
 
-Icon:
+  Icon:
 
-*byte
+ *byte
 
-name:Bytes
+  name:Bytes
 
-desc:The ascension currency, with the greater benefit. Powers your building with the exchange of the soft reset.
+  desc:The ascension currency, with the greater benefit. Powers your building with the exchange of the soft reset.
 
-Icon:
+  Icon:
 
 Buildings
 
-*i386
+ *i386
 
-name:Intel 80386
+  name:Intel 80386
 
-desc:Effect on updates, First level 
+  desc:Effect on updates, First level 
 
-cost:1 flop
+  cost:1 flop
 
-Icon:
+  Icon:debug[0,1]
 
-show max
+  show max
 
 Upgrades
 
-*386OS1
+ *386OS1
 
-name:Windows/386 Version 2.03
+  name:Windows/386 Version 2.03
 
-desc:Powering Intel 80308 with increased X1.4 perfomance
+  desc:Powering Intel 80308 with increased X1.4 perfomance
 
-cost:3 clickpower
+  cost:3 flop
 
-passive:multiply yield of click by 1.4
+  passive:multiply yield of i386 by 1.4
 
-req:1 i386
+  req:1 i386
 
-Icon:
+  Icon:debug[2,3] debug[1,2]
+  
+Achievements
+
+ *flopM1
+		name:First try
+  
+		desc:Have <b>1 unit</b> of perfomance currency.
+  
+		req:1 flop
+  
+		icon:icons[2,4] icons[0,2] icons[0,6]
