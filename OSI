@@ -1,0 +1,89 @@
+Let's make a game!
+Name: OSI A02
+Desc: The button, and a big release
+by:Qavs
+Created: 17/03/2022
+Updated: 18/03/2022
+Version: 2
+ 
+Settings
+
+building cost increase: 110%
+building cost refund: 44%
+
+background:https://s1.postimg.org/9rs9xp1kcv/background_black.png
+
+stylesheet:https://pastebin.com/raw/xwYbuBQN
+
+Buttons
+*clickablebooster
+
+name:The Booster
+
+desc:B
+
+on click:yield 1 boost
+
+class:bigButton
+
+Icon:https://i.imgur.com/1WIFxhd.png
+
+tooltip origin:bottom
+tooltip class:red
+
+show clicks
+
+Resources
+*boost
+
+name:Boost Clicks
+
+desc:It may not affect on early game, however it would be must-need resource mid-game!
+
+Icon:
+
+*flop
+
+name:Perfomance Currency
+
+desc:The power of FLOPs, bangwidth, and system stats shows it's pride. Effectively, it's transformed to the currency. Do the Personal Computing.
+
+Icon:
+
+*byte
+
+name:Bytes
+
+desc:The ascension currency, with the greater benefit. Powers your building with the exchange of the soft reset.
+
+Icon:
+
+Buildings
+
+*i386
+
+name:Intel 80386
+
+desc:Effect on updates, First level 
+
+cost:1 flop
+
+Icon:
+
+show max
+
+Upgrades
+
+*386OS1
+
+name:Windows/386 Version 2.03
+
+desc:Powering Intel 80308 with increased X1.4 perfomance
+
+cost:3 clickpower
+
+passive:multiply yield of click by 1.4
+
+req:1 i386
+
+Icon:
