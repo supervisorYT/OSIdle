@@ -4,7 +4,7 @@ Desc: The button, and a big release
 by:Qavs
 Created: 17/03/2022
 Updated: 18/03/2022
-Version: 2
+Version: 3
  
 Settings
 
@@ -94,10 +94,51 @@ Upgrades
 Achievements
 
  *flopM1
-		name:First try
+ 
+  name:First try
   
-		desc:Have <b>1 unit</b> of perfomance currency.
+  desc:Have <b>1 unit</b> of perfomance currency.
   
-		req:1 flop
+  req:1 flop
   
-		icon:icons[2,4] icons[0,2] icons[0,6]
+  icon:icons[2,4] icons[0,2] icons[0,6]
+  
+ *click1
+ 
+  name:We're just starting!
+  
+  desc:Clicked <b>15</b> times to boost
+  
+  req:15 boost
+  
+  icon:icons[2,4] icons[0,2] icons[0,6]
+  
+ *click2
+ 
+  name:And yet we're still here!
+  
+  desc:Clicked <b>100</b> times to boost
+  
+  req:100 boost
+  
+  icon:icons[2,4] icons[0,2] icons[0,6]
+  
+ *click3
+ 
+  name:Click to go
+  
+  desc:Clicked <b>300</b> times to boost
+  
+  req:300 boost
+  
+  icon:icons[2,4] icons[0,2] icons[0,6]
+  
+ *click4
+ 
+  name:You're clicking still
+  
+  desc:Clicked <b>1000</b> times to boost
+  
+  req:1000 boost
+  
+  icon:icons[2,4] icons[0,2] icons[0,6]
