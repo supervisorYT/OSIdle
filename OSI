@@ -50,6 +50,8 @@ Resources
   name:Perfomance Currency
 
   desc:The power of FLOPs, bangwidth, and system stats shows it's pride. Effectively, it's transformed to the currency. Do the Personal Computing.
+  
+  start with:1
 
   Icon:
 
@@ -102,6 +104,8 @@ Buildings
   cost:1 flop
 
   Icon:debug[0,1]
+  
+  on tick:yield 1 flop
 
   show max
 
@@ -132,6 +136,9 @@ Achievements
   req:1 flop
   
   icon:icons[2,4] icons[0,2] icons[0,6]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 poor
   
  *click1
  
