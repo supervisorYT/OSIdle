@@ -1,10 +1,10 @@
 Let's make a game!
-Name: OSI A03
+Name: OSI A04
 Desc: Placeholder graphics by Eric, the Grandma Clicker series developer<//> Spyonclear project Code Name OSIdle. <//><t><i><#D1D17A>Poor achievements earnt: </#> [poor]</i></t> <//><t><i><#D1D17A>Destitute achievements earnt: </#> [destitute]</i></t> <//><t><i><#D1D17A>Decent achievements earnt: </#> [decent]</i></t> <//><t><i><#D1D17A>Minimum achievements earnt: </#> [minimum]</i></t>
 by:Qavs
 Created: 17/03/2022
 Updated: 18/03/2022
-Version: 4
+Version: 6
  
 Settings
 
@@ -43,7 +43,7 @@ Resources
 
   desc:It may not affect on early game, however it would be must-need resource mid-game!
 
-  Icon:debug[4,2]
+  Icon:debug[2,4]
 
  *flop
 
@@ -53,7 +53,7 @@ Resources
   
   start with:1
 
-  Icon:debug[4,3]
+  Icon:debug[3,4]
 
  *byte
 
@@ -135,7 +135,7 @@ Achievements
   
   req:1 flop
   
-  icon:icons[4,3] icons[0,0]
+  icon:icons[3,4] icons[0,0]
   
   on earn:yield 1 ach
   on earn:yield 1 poor
@@ -148,7 +148,7 @@ Achievements
   
   req:15 boost
   
-  icon:icons[4,2] icons[0,0]
+  icon:icons[2,4] icons[0,0]
   
   on earn:yield 1 ach
   on earn:yield 1 poor
@@ -161,7 +161,7 @@ Achievements
   
   req:100 boost
   
-  icon:icons[4,2] icons[0,1]
+  icon:icons[2,4] icons[1,0]
   
   on earn:yield 1 ach
   on earn:yield 1 destitute
@@ -174,7 +174,7 @@ Achievements
   
   req:300 boost
   
-  icon:icons[4,2] icons[0,2]
+  icon:icons[2,4] icons[2,0]
   
   on earn:yield 1 ach
   on earn:yield 1 decent
@@ -187,7 +187,7 @@ Achievements
   
   req:1000 boost
   
-  icon:icons[4,2] icons[0,3]
+  icon:icons[2,4] icons[3,0]
   
   on earn:yield 1 ach
   on earn:yield 1 minimum
