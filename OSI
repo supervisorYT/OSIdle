@@ -4,7 +4,7 @@ Desc: Placeholder graphics by Eric, the Grandma Clicker series developer<//> Spy
 by:Qavs
 Created: 17/03/2022
 Updated: 18/03/2022
-Version: 6
+Version: 7
  
 Settings
 
@@ -135,7 +135,7 @@ Achievements
   
   req:1 flop
   
-  icon:icons[3,4] icons[0,0]
+  icon:icons[0,0] icons[3,4]
   
   on earn:yield 1 ach
   on earn:yield 1 poor
@@ -148,7 +148,7 @@ Achievements
   
   req:15 boost
   
-  icon:icons[2,4] icons[0,0]
+  icon:icons[0,0] icons[2,4]
   
   on earn:yield 1 ach
   on earn:yield 1 poor
@@ -161,7 +161,7 @@ Achievements
   
   req:100 boost
   
-  icon:icons[2,4] icons[1,0]
+  icon:icons[1,0] icons[2,4]
   
   on earn:yield 1 ach
   on earn:yield 1 destitute
@@ -174,7 +174,7 @@ Achievements
   
   req:300 boost
   
-  icon:icons[2,4] icons[2,0]
+  icon:icons[2,0] icons[2,4]
   
   on earn:yield 1 ach
   on earn:yield 1 decent
@@ -187,7 +187,7 @@ Achievements
   
   req:1000 boost
   
-  icon:icons[2,4] icons[3,0]
+  icon:icons[3,0] icons[2,4]
   
   on earn:yield 1 ach
   on earn:yield 1 minimum
