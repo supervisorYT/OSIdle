@@ -1,10 +1,10 @@
 Let's make a game!
-Name: OSI A05 Su Preview
+Name: OSI A06 Dex Preview
 Desc: Placeholder graphics by Eric, the Grandma Clicker series developer<//> Spyonclear project Code Name OSIdle. <//><t><i><#D1D17A>Poor achievements earnt: </#> [poor]</i></t> <//><t><i><#D1D17A>Destitute achievements earnt: </#> [destitute]</i></t> <//><t><i><#D1D17A>Decent achievements earnt: </#> [decent]</i></t> <//><t><i><#D1D17A>Minimum achievements earnt: </#> [minimum]</i></t>
 by:Qavs
 Created: 17/03/2022
-Updated: 19/03/2022
-Version: 8
+Updated: 22/03/2022
+Version: 10
  
 Settings
 
@@ -222,7 +222,7 @@ Achievements
  
   name:The source of Perfomance
   
-  desc:Have <b>100 thousands</b> of perfomance currency. <//><t><i><#FF9500>Minimum achievements earnt: </#> [minimum]</i></t>
+  desc:Have <b>100 thousands</b> of perfomance currency. <//><t><i><#FFFF00>Minimum achievements earnt: </#> [minimum]</i></t>
   
   req:100000 flop
   
@@ -235,7 +235,7 @@ Achievements
  
   name:We're just starting!
   
-  desc:Clicked <b>15</b> times to boost
+  desc:Clicked <b>15</b> times to boost <//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
   
   req:15 boost
   
@@ -248,7 +248,7 @@ Achievements
  
   name:And yet we're still here!
   
-  desc:Clicked <b>100</b> times to boost
+  desc:Clicked <b>100</b> times to boost <//><t><i><#E60000>Destitute achievements earnt: </#> [destitute]</i></t>
   
   req:100 boost
   
@@ -261,7 +261,7 @@ Achievements
  
   name:Click to go
   
-  desc:Clicked <b>300</b> times to boost
+  desc:Clicked <b>300</b> times to boost <//><t><i><#FF9500>Decent achievements earnt: </#> [decent]</i></t>
   
   req:300 boost
   
@@ -274,7 +274,7 @@ Achievements
  
   name:You're clicking still
   
-  desc:Clicked <b>1000</b> times to boost
+  desc:Clicked <b>1000</b> times to boost <//><t><i><#FFFF00>Minimum achievements earnt: </#> [minimum]</i></t>
   
   req:1000 boost
   
