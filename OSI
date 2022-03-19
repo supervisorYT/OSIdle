@@ -183,7 +183,7 @@ Achievements
  
   name:First try
   
-  desc:Have <b>1 unit</b> of perfomance currency. <//><t><i><#D1D17A>Poor achievements earnt: </#> [poor]</i></t>
+  desc:Have <b>1 unit</b> of perfomance currency. <//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
   
   req:1 flop
   
@@ -196,7 +196,7 @@ Achievements
  
   name:Just before the action
   
-  desc:Have <b>100 units</b> of perfomance currency. <//><t><i><#D1D17A>Destitute achievements earnt: </#> [destitute]</i></t>
+  desc:Have <b>100 units</b> of perfomance currency. <//><t><i><#E60000>Destitute achievements earnt: </#> [destitute]</i></t>
   
   req:100 flop
   
@@ -209,7 +209,7 @@ Achievements
  
   name:Enjoy our nice work ;)
   
-  desc:Have <b>1 thousand</b> of perfomance currency.
+  desc:Have <b>1 thousand</b> of perfomance currency. <//><t><i><#FF9500>Decent achievements earnt: </#> [decent]</i></t>
   
   req:1000 flop
   
@@ -222,7 +222,7 @@ Achievements
  
   name:The source of Perfomance
   
-  desc:Have <b>100 thousands</b> of perfomance currency.
+  desc:Have <b>100 thousands</b> of perfomance currency. <//><t><i><#FF9500>Minimum achievements earnt: </#> [minimum]</i></t>
   
   req:100000 flop
   
