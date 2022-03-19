@@ -1,20 +1,22 @@
 Code Name OSIDLE TBD (B01) NA.03.22
 
-Code Name OSIDLE Det (A10.8) 19.03.22
+Code Name OSIDLE Det (A10.8) 2e.03.22
 
-Code Name OSIDLE Axo (A09.8) 19.03.22
+Code Name OSIDLE Axo (A09.8) 2d.03.22
 
-Code Name OSIDLE Ax (A08.8) 19.03.22
+Code Name OSIDLE Ax (A08.8) 2c.03.22
 
-Code Name OSIDLE Dexo (A07.8) 19.03.22
+Code Name OSIDLE Dexo (A07.8) 2b.03.22
 
-Code Name OSIDLE Dex (A06.8) 19.03.22
+Code Name OSIDLE Dex (A06.8) 2a.03.22
 
 Code Name OSIDLE Su (A05.8) 19.03.22
 + Brought in Entry, Modest, Fair and Fine tiers.
 + Created the Windows 386 2.10 version
 + 3 more milestones for flop achievements
 + stats under achievement.
++ Speaking of tiers, their text is colored. Can be seen on Achievements 'folder'.
+Hotfix A05.9 related to the line id *386OS1
 
 Code Name OSIDLE Ge (A04.6) 19.03.22
 + Updated Sprites - for up to x64, IA-64 and AMD64; Sprites for Date and Time, Boost clicks, Perfomance, Bytes.
