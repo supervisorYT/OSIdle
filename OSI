@@ -1,10 +1,10 @@
 Let's make a game!
-Name: OSI A04
+Name: OSI A05 Su Preview
 Desc: Placeholder graphics by Eric, the Grandma Clicker series developer<//> Spyonclear project Code Name OSIdle. <//><t><i><#D1D17A>Poor achievements earnt: </#> [poor]</i></t> <//><t><i><#D1D17A>Destitute achievements earnt: </#> [destitute]</i></t> <//><t><i><#D1D17A>Decent achievements earnt: </#> [decent]</i></t> <//><t><i><#D1D17A>Minimum achievements earnt: </#> [minimum]</i></t>
 by:Qavs
 Created: 17/03/2022
-Updated: 18/03/2022
-Version: 7
+Updated: 19/03/2022
+Version: 8
  
 Settings
 
@@ -92,6 +92,30 @@ Resources
   name:At-least-you-tried achievement
   
   always hidden
+  
+ *entry
+  
+  name:Entry achievement
+  
+  always hidden
+  
+ *modest
+  
+  name:Modest achievement
+  
+  always hidden
+  
+ *fair
+  
+  name:Fair achievement
+  
+  always hidden
+  
+ *fine
+  
+  name:Fine achievement
+  
+  always hidden
 
 Buildings
 
@@ -106,6 +130,20 @@ Buildings
   Icon:debug[0,1]
   
   on tick:yield 1 flop
+
+  show max
+  
+ *i486
+
+  name:Intel 80486
+
+  desc:The microprocessor with great perfomance. This is Intel 80486
+
+  cost:750 flop
+
+  Icon:debug[1,1]
+  
+  on tick:yield 5 flop
 
   show max
 
@@ -123,6 +161,20 @@ Upgrades
 
   req:1 i386
 
+  Icon:debug[2,3] debug[0,2]
+
+ *386OS1
+
+  name:Windows/386 Version 2.10
+
+  desc:Powering Intel 80308 with increased X1.4 perfomance
+
+  cost:3 flop
+
+  passive:multiply yield of i386 by 1.4
+
+  req:15 i386
+
   Icon:debug[2,3] debug[1,2]
   
 Achievements
@@ -131,7 +183,7 @@ Achievements
  
   name:First try
   
-  desc:Have <b>1 unit</b> of perfomance currency.
+  desc:Have <b>1 unit</b> of perfomance currency. <//><t><i><#D1D17A>Poor achievements earnt: </#> [poor]</i></t>
   
   req:1 flop
   
@@ -139,6 +191,45 @@ Achievements
   
   on earn:yield 1 ach
   on earn:yield 1 poor
+  
+ *flopM2
+ 
+  name:Just before the action
+  
+  desc:Have <b>100 units</b> of perfomance currency. <//><t><i><#D1D17A>Destitute achievements earnt: </#> [destitute]</i></t>
+  
+  req:100 flop
+  
+  icon:icons[1,0] icons[3,4]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 destitute
+  
+ *flopM3
+ 
+  name:Enjoy our nice work ;)
+  
+  desc:Have <b>1 thousand</b> of perfomance currency.
+  
+  req:1000 flop
+  
+  icon:icons[2,0] icons[3,4]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 decent
+  
+ *flopM4
+ 
+  name:The source of Perfomance
+  
+  desc:Have <b>100 thousands</b> of perfomance currency.
+  
+  req:100000 flop
+  
+  icon:icons[3,0] icons[3,4]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 minimum
   
  *click1
  
