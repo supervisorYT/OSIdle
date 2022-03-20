@@ -116,6 +116,78 @@ Resources
   name:Fine achievement
   
   always hidden
+  
+ *acceptable
+  
+  name:acceptable achievement
+  
+  always hidden
+  
+ *good
+  
+  name:Good achievement
+  
+  always hidden
+  
+ *vg
+  
+  name:Very good achievement
+  
+  always hidden
+  
+ *great
+  
+  name:Great achievement
+  
+  always hidden
+  
+ *super
+  
+  name:Super achievement
+  
+  always hidden
+  
+ *awesome
+  
+  name:Awesome achievement
+  
+  always hidden
+  
+ *excellent
+  
+  name:Excellent achievement
+  
+  always hidden
+  
+ *outstanding
+  
+  name:Outstanding achievement
+  
+  always hidden
+  
+ *brilliant
+  
+  name:Brilliant achievement
+  
+  always hidden
+  
+ *outstanding
+  
+  name:Outstanding achievement
+  
+  always hidden
+  
+ *outstanding
+  
+  name:Outstanding achievement
+  
+  always hidden
+  
+ *outstanding
+  
+  name:Outstanding achievement
+  
+  always hidden
 
 Buildings
 
