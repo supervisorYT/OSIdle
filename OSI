@@ -1,10 +1,10 @@
 Let's make a game!
-Name: OSI A06 Dex Preview
+Name: OSI A06 Dexo Preview
 Desc: Placeholder graphics by Eric, the Grandma Clicker series developer<//> Spyonclear project Code Name OSIdle. <//><t><i><#D1D17A>Poor achievements earnt: </#> [poor]</i></t> <//><t><i><#D1D17A>Destitute achievements earnt: </#> [destitute]</i></t> <//><t><i><#D1D17A>Decent achievements earnt: </#> [decent]</i></t> <//><t><i><#D1D17A>Minimum achievements earnt: </#> [minimum]</i></t>
 by:Qavs
 Created: 17/03/2022
 Updated: 22/03/2022
-Version: 10
+Version: 11
  
 Settings
 
@@ -159,6 +159,12 @@ Resources
   
   always hidden
   
+ *amazing
+  
+  name:Amazing achievement
+  
+  always hidden
+  
  *outstanding
   
   name:Outstanding achievement
@@ -171,21 +177,68 @@ Resources
   
   always hidden
   
- *outstanding
-  
-  name:Outstanding achievement
-  
-  always hidden
-  
- *outstanding
-  
-  name:Outstanding achievement
+ *astounding
+  name:Astounding achievement
   
   always hidden
   
- *outstanding
+ *compelling
   
-  name:Outstanding achievement
+  name:Compelling achievement
+  
+  always hidden
+  
+ *groundbreaking
+  
+  name:Groundbreaking achievement
+  
+  always hidden
+  
+ *epic
+  
+  name:Epic achievement
+  
+  always hidden
+  
+ *elite
+  
+  name:Elite achievement
+  
+  always hidden
+  
+ *perfect
+  
+  name:Perfect achievement
+  
+  always hidden
+  
+ *legendary
+  
+  name:Groundbreaking achievement
+  
+  always hidden
+  
+ *relic
+  
+  name:Relic achievement
+  
+  always hidden
+  
+ *mythic
+  
+  name:Mythic achievement
+  
+  always hidden
+  
+ *supreme
+  
+  name:Supreme achievement
+  
+  always hidden
+  
+ *extreme
+  
+  name:Extreme achievement
   
   always hidden
 
@@ -302,6 +355,45 @@ Achievements
   
   on earn:yield 1 ach
   on earn:yield 1 minimum
+  
+ *flopM5
+ 
+  name:Giving the power
+  
+  desc:Have <b>1 million</b> of perfomance currency. <//><t><i><#FFFF00>Entry achievements earnt: </#> [entry]</i></t>
+  
+  req:1e6 flop
+  
+  icon:icons[4,0] icons[3,4]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 entry
+  
+ *flopM6
+ 
+  name:Get a good speed
+  
+  desc:Have <b>100 millions</b> of perfomance currency. <//><t><i><#FFFF00>Modest achievements earnt: </#> [modest]</i></t>
+  
+  req:1e8 flop
+  
+  icon:icons[5,0] icons[3,4]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 modest
+  
+ *flopM7
+ 
+  name:Finding a way to get as much operating systems as possible within my limits
+  
+  desc:Have <b>10 billions</b> of perfomance currency. <//><t><i><#FFFF00>Fair achievements earnt: </#> [fair]</i></t>
+  
+  req:1e10 flop
+  
+  icon:icons[6,0] icons[3,4]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 fair
   
  *click1
  
