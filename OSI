@@ -1,10 +1,10 @@
 Let's make a game!
-Name: OSI A06 Dexo Preview
+Name: OSI A08 Ax Preview
 Desc: Placeholder graphics by Eric, the Grandma Clicker series developer<//> Spyonclear project Code Name OSIdle. <//><t><i><#D1D17A>Poor achievements earnt: </#> [poor]</i></t> <//><t><i><#D1D17A>Destitute achievements earnt: </#> [destitute]</i></t> <//><t><i><#D1D17A>Decent achievements earnt: </#> [decent]</i></t> <//><t><i><#D1D17A>Minimum achievements earnt: </#> [minimum]</i></t>
 by:Qavs
 Created: 17/03/2022
 Updated: 22/03/2022
-Version: 11
+Version: 12
  
 Settings
 
@@ -360,7 +360,7 @@ Achievements
  
   name:Giving the power
   
-  desc:Have <b>1 million</b> of perfomance currency. <//><t><i><#FFFF00>Entry achievements earnt: </#> [entry]</i></t>
+  desc:Have <b>1 million</b> of perfomance currency. <//><t><i><#BBBBBB>Entry achievements earnt: </#> [entry]</i></t>
   
   req:1e6 flop
   
@@ -373,7 +373,7 @@ Achievements
  
   name:Get a good speed
   
-  desc:Have <b>100 millions</b> of perfomance currency. <//><t><i><#FFFF00>Modest achievements earnt: </#> [modest]</i></t>
+  desc:Have <b>100 millions</b> of perfomance currency. <//><t><i><#BBBBBB>Modest achievements earnt: </#> [modest]</i></t>
   
   req:1e8 flop
   
@@ -386,7 +386,7 @@ Achievements
  
   name:Finding a way to get as much operating systems as possible within my limits
   
-  desc:Have <b>10 billions</b> of perfomance currency. <//><t><i><#FFFF00>Fair achievements earnt: </#> [fair]</i></t>
+  desc:Have <b>10 billions</b> of perfomance currency. <//><t><i><#FFFFFF>Fair achievements earnt: </#> [fair]</i></t>
   
   req:1e10 flop
   
@@ -394,6 +394,149 @@ Achievements
   
   on earn:yield 1 ach
   on earn:yield 1 fair
+  
+ *flopM8
+ 
+  name:A decent PC
+  
+  desc:Have <b>1 trillion</b> of perfomance currency. <//><t><i><#6EDB00>Fine achievements earnt: </#> [fine]</i></t>
+  
+  req:1e12 flop
+  
+  icon:icons[7,0] icons[3,4]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 fine
+  
+ *386M1
+ 
+  name:And we have our microchip!
+  
+  desc:Have <b>1</b> Intel 80386 processor. <//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
+  
+  req:1 i386
+  
+  icon:icons[0,0] icons[0,1]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 poor
+  
+ *386M2
+ 
+  name:It's your damned games!
+  
+  desc:Have <b>10</b> Intel 80386 processors. <//><t><i><#E60000>Destitute achievements earnt: </#> [destitute]</i></t>
+  
+  req:10 i386
+  
+  icon:icons[1,0] icons[0,1]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 destitute
+  
+ *386M3
+ 
+  name:Demoscenes everywhere!
+  
+  desc:Have <b>50</b> Intel 80386 processors. <//><t><i><#FF9500>Decent achievements earnt: </#> [decent]</i></t>
+  
+  req:50 i386
+  
+  icon:icons[2,0] icons[0,1]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 decent
+  
+ *386M4
+ 
+  name:On OSI, You'll Love It!
+  
+  desc:Have <b>100</b> Intel 80386 processors. <//><t><i><#FFFF00>Minimum achievements earnt: </#> [minimum]</i></t>
+  
+  req:100 i386
+  
+  icon:icons[3,0] icons[0,1]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 minimum
+  
+ *386M5
+ 
+  name:Bought it on 1992 - already outdated
+  
+  desc:Have <b>200</b> Intel 80386 processors. <//><t><i><#FFFF00>Entry achievements earnt: </#> [entry]</i></t>
+  
+  req:200 i386
+  
+  icon:icons[4,0] icons[0,1]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 entry  
+  
+ *486M1
+ 
+  name:Together!
+  
+  desc:Have <b>1</b> Intel 80486 processor. <//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
+  
+  req:1 i486
+  
+  icon:icons[0,0] icons[1,1]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 poor
+  
+ *486M2
+ 
+  name:Multitasking
+  
+  desc:Have <b>10</b> Intel 80486 processors. <//><t><i><#E60000>Destitute achievements earnt: </#> [destitute]</i></t>
+  
+  req:10 i486
+  
+  icon:icons[1,0] icons[1,1]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 destitute
+  
+ *486M3
+ 
+  name:Whenever we recognize our new friends
+  
+  desc:Have <b>50</b> Intel 80486 processors. <//><t><i><#FF9500>Decent achievements earnt: </#> [decent]</i></t>
+  
+  req:50 i486
+  
+  icon:icons[2,0] icons[1,1]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 decent
+  
+ *486M4
+ 
+  name:Never slow down on 486
+  
+  desc:Have <b>100</b> Intel 80486 processors. <//><t><i><#FFFF00>Minimum achievements earnt: </#> [minimum]</i></t>
+  
+  req:100 i486
+  
+  icon:icons[3,0] icons[1,1]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 minimum
+  
+ *486M5
+ 
+  name:Intel Inside
+  
+  desc:Have <b>200</b> Intel 80486 processors. <//><t><i><#FFFF00>Entry achievements earnt: </#> [entry]</i></t>
+  
+  req:200 i486
+  
+  icon:icons[4,0] icons[1,1]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 entry
   
  *click1
  
