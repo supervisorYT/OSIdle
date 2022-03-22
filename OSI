@@ -1,10 +1,10 @@
 Let's make a game!
-Name: OSI A08 Ax Preview
+Name: OSI A09 Axo Preview
 Desc: Placeholder graphics by Eric, the Grandma Clicker series developer<//> Spyonclear project Code Name OSIdle. <//><t><i><#D1D17A>Poor achievements earnt: </#> [poor]</i></t> <//><t><i><#D1D17A>Destitute achievements earnt: </#> [destitute]</i></t> <//><t><i><#D1D17A>Decent achievements earnt: </#> [decent]</i></t> <//><t><i><#D1D17A>Minimum achievements earnt: </#> [minimum]</i></t>
 by:Qavs
 Created: 17/03/2022
 Updated: 22/03/2022
-Version: 12
+Version: 13
  
 Settings
 
@@ -310,7 +310,7 @@ Achievements
   
   desc:Have <b>1 unit</b> of perfomance currency. <//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
   
-  req:1 flop
+  req:1 flop:earned
   
   icon:icons[0,0] icons[3,4]
   
@@ -323,7 +323,7 @@ Achievements
   
   desc:Have <b>100 units</b> of perfomance currency. <//><t><i><#E60000>Destitute achievements earnt: </#> [destitute]</i></t>
   
-  req:100 flop
+  req:100 flop:earned
   
   icon:icons[1,0] icons[3,4]
   
@@ -336,7 +336,7 @@ Achievements
   
   desc:Have <b>1 thousand</b> of perfomance currency. <//><t><i><#FF9500>Decent achievements earnt: </#> [decent]</i></t>
   
-  req:1000 flop
+  req:1000 flop:earned
   
   icon:icons[2,0] icons[3,4]
   
@@ -349,7 +349,7 @@ Achievements
   
   desc:Have <b>100 thousands</b> of perfomance currency. <//><t><i><#FFFF00>Minimum achievements earnt: </#> [minimum]</i></t>
   
-  req:100000 flop
+  req:100000 flop:earned
   
   icon:icons[3,0] icons[3,4]
   
@@ -362,7 +362,7 @@ Achievements
   
   desc:Have <b>1 million</b> of perfomance currency. <//><t><i><#BBBBBB>Entry achievements earnt: </#> [entry]</i></t>
   
-  req:1e6 flop
+  req:1e6 flop:earned
   
   icon:icons[4,0] icons[3,4]
   
@@ -375,7 +375,7 @@ Achievements
   
   desc:Have <b>100 millions</b> of perfomance currency. <//><t><i><#BBBBBB>Modest achievements earnt: </#> [modest]</i></t>
   
-  req:1e8 flop
+  req:1e8 flop:earned
   
   icon:icons[5,0] icons[3,4]
   
@@ -388,7 +388,7 @@ Achievements
   
   desc:Have <b>10 billions</b> of perfomance currency. <//><t><i><#FFFFFF>Fair achievements earnt: </#> [fair]</i></t>
   
-  req:1e10 flop
+  req:1e10 flop:earned
   
   icon:icons[6,0] icons[3,4]
   
@@ -401,9 +401,113 @@ Achievements
   
   desc:Have <b>1 trillion</b> of perfomance currency. <//><t><i><#6EDB00>Fine achievements earnt: </#> [fine]</i></t>
   
-  req:1e12 flop
+  req:1e12 flop:earned
   
   icon:icons[7,0] icons[3,4]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 fine
+  
+ *flopPS1
+ 
+  name:Permanent source
+  
+  desc:Have <b>10 unit</b> of perfomance per second. <//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
+  
+  req:flop:ps>=10
+  
+  icon:icons[0,5] icons[0,0] icons[3,4]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 poor
+  
+ *flopPS2
+ 
+  name:Run throught
+  
+  desc:Have <b>1 thousand</b> of perfomance per second. <//><t><i><#E60000>Destitute achievements earnt: </#> [destitute]</i></t>
+  
+  req:flop:ps>=1000
+  
+  icon:icons[0,5] icons[1,0] icons[3,4]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 destitute
+  
+ *flopPS3
+ 
+  name:Real-time calculation
+  
+  desc:Have <b>10 thousand</b> of perfomance per second. <//><t><i><#FF9500>Decent achievements earnt: </#> [decent]</i></t>
+  
+  req:flop:ps>=10000
+  
+  icon:icons[0,5] icons[2,0] icons[3,4]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 decent
+  
+ *flopPS4
+ 
+  name:Great calculation
+  
+  desc:Have <b>1 million</b> of perfomance per second. <//><t><i><#FFFF00>Minimum achievements earnt: </#> [minimum]</i></t>
+  
+  req:flop:ps>=1e6
+  
+  icon:icons[0,5] icons[3,0] icons[3,4]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 minimum
+  
+ *flopPS5
+ 
+  name:DOOM MF
+  
+  desc:Have <b>10 million</b> of perfomance per second. <//><t><i><#BBBBBB>Entry achievements earnt: </#> [entry]</i></t>
+  
+  req:flop:ps>=1e7
+  
+  icon:icons[0,5] icons[4,0] icons[3,4]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 entry
+  
+ *flopPS6
+ 
+  name:Playstation 2
+  
+  desc:Have <b>1 billion</b> of perfomance per second. <//><t><i><#BBBBBB>Modest achievements earnt: </#> [modest]</i></t>
+  
+  req:flop:ps>=1e9
+  
+  icon:icons[0,5] icons[5,0] icons[3,4]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 modest
+  
+ *flopPS7
+ 
+  name:Microsoft Xbox
+  
+  desc:Have <b>10 billions</b> of perfomance per second. <//><t><i><#FFFFFF>Fair achievements earnt: </#> [fair]</i></t>
+  
+  req:flop:ps>=1e10
+  
+  icon:icons[0,5] icons[6,0] icons[3,4]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 fair
+  
+ *flopPS8
+ 
+  name:Have a nice personal computer perfomance.
+  
+  desc:Have <b>1 trillion</b> of perfomance per second. <//><t><i><#6EDB00>Fine achievements earnt: </#> [fine]</i></t>
+  
+  req:flop:ps>=1e12
+  
+  icon:icons[0,5] icons[7,0] icons[3,4]
   
   on earn:yield 1 ach
   on earn:yield 1 fine
