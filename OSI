@@ -3,8 +3,8 @@ Name: OSI A11 Deto Preview
 Desc: Placeholder graphics by Eric, the Grandma Clicker series developer<//> Spyonclear project Code Name OSIdle. <//><t><i><#D1D17A>Poor achievements earnt: </#> [poor]</i></t> <//><t><i><#D1D17A>Destitute achievements earnt: </#> [destitute]</i></t> <//><t><i><#D1D17A>Decent achievements earnt: </#> [decent]</i></t> <//><t><i><#D1D17A>Minimum achievements earnt: </#> [minimum]</i></t>
 by:Qavs
 Created: 17/03/2022
-Updated: 26/03/2022
-Version: 18
+Updated: 30/03/2022
+Version: 19
  
 Settings
 
@@ -294,7 +294,7 @@ Buildings
 
   name:Pentium
 
-  desc:The microprocessor with great perfomance. This is Intel 80486. Makes 100 units of perfomance currency
+  desc:This is the fifth generation of great perfomance. Makes 100 units of perfomance currency
 
   cost:22000 flop
 
@@ -310,13 +310,13 @@ Buildings
 
   name:P6
 
-  desc:The microprocessor with great perfomance. This is Intel 80486. Makes 100 units of perfomance currency
+  desc:No, Pentium MMX was still P5. Makes 1400 units of perfomance currency
 
-  cost:22000 flop
+  cost:600000 flop
 
   Icon:icons[3,1]
   
-  on tick:yield 100 flop
+  on tick:yield 1400 flop
   
   tag:microprocessor
 
