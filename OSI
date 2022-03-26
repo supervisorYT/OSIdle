@@ -1,10 +1,10 @@
 Let's make a game!
-Name: OSI A09 Axo Preview
+Name: OSI A10 Det Preview
 Desc: Placeholder graphics by Eric, the Grandma Clicker series developer<//> Spyonclear project Code Name OSIdle. <//><t><i><#D1D17A>Poor achievements earnt: </#> [poor]</i></t> <//><t><i><#D1D17A>Destitute achievements earnt: </#> [destitute]</i></t> <//><t><i><#D1D17A>Decent achievements earnt: </#> [decent]</i></t> <//><t><i><#D1D17A>Minimum achievements earnt: </#> [minimum]</i></t>
 by:Qavs
 Created: 17/03/2022
-Updated: 22/03/2022
-Version: 13
+Updated: 26/03/2022
+Version: 15
  
 Settings
 
@@ -775,7 +775,7 @@ Achievements
   on earn:yield 1 ach
   on earn:yield 1 entry
   
- *click1
+ *clickM1
  
   name:We're just starting!
   
@@ -788,7 +788,7 @@ Achievements
   on earn:yield 1 ach
   on earn:yield 1 poor
   
- *click2
+ *clickM2
  
   name:And yet we're still here!
   
@@ -801,7 +801,7 @@ Achievements
   on earn:yield 1 ach
   on earn:yield 1 destitute
   
- *click3
+ *clickM3
  
   name:Click to go
   
@@ -814,7 +814,7 @@ Achievements
   on earn:yield 1 ach
   on earn:yield 1 decent
   
- *click4
+ *clickM4
  
   name:You're clicking still
   
