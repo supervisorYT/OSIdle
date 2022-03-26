@@ -63,6 +63,20 @@ Resources
 
   Icon:debug[4,4]
   
+ *os
+ 
+  name:Operating System
+
+  desc:Public Testing needed to define which role an operating system as an currency gives. It can be a requirement for achievements and be powered by upgrades for buildings.
+
+  always hidden
+  
+ *upg
+ 
+  name:Upgrade
+  
+  always hidden
+  
  *ach
  
   name:Achievements
@@ -255,6 +269,8 @@ Buildings
   Icon:debug[0,1]
   
   on tick:yield 1 flop
+  
+  tag:microprocessor
 
   show max
   
@@ -269,6 +285,8 @@ Buildings
   Icon:debug[1,1]
   
   on tick:yield 5 flop
+  
+  tag:microprocessor
 
   show max
 
@@ -285,6 +303,8 @@ Upgrades
   passive:multiply yield of i386 by 1.4
 
   req:1 i386
+  
+  on earn:yield 1 os
 
   Icon:debug[2,3] debug[0,2]
 
@@ -294,13 +314,48 @@ Upgrades
 
   desc:Powering Intel 80308 with increased X1.4 perfomance
 
-  cost:3 flop
+  cost:250 flop
 
   passive:multiply yield of i386 by 1.4
 
   req:15 i386
+  
+  on earn:yield 1 os
 
   Icon:debug[2,3] debug[1,2]
+  
+ *click1
+
+  name:Big Clickin' Deal
+
+  desc:Increace your performance by 10% per thousand boost clicks
+
+  cost:750000 flop
+
+  passive:multiply flop yield of tag:microprocessor by (1+0.0001*boost*achievMultiplier)
+
+  req:100 boost
+  
+  on earn:yield 1 upg
+
+  Icon:icons[31,7] icons[30,6] icons[20,6] icons[10,6] icons[0,6] icons[1,5] icons[2,4]
+  
+ *click2
+
+  name:Mouse-breaking solution
+
+  desc:Increace your performance by 1% per thousand boost clicks
+
+  cost:4e11 flop
+
+  passive:multiply flop yield of tag:microprocessor by (1+0.00001*boost*achievMultiplier)
+
+  req:10000 boost
+  
+  on earn:yield 1 upg
+
+  Icon:icons[21,7] icons[20,6] icons[10,6] icons[0,6] icons[1,5] icons[2,4]
+  
   
 Achievements
 
@@ -511,12 +566,90 @@ Achievements
   
   on earn:yield 1 ach
   on earn:yield 1 fine
+
+ *OSM1
+ 
+  name:OS Mockups
+  
+  desc:Have <b>1</b> operating system. (Currently: <b>[os]</b>)<//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
+  
+  req:1 os
+  
+  icon:icons[0,0]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 poor
+
+ *OSM2
+ 
+  name:OS Marathon
+  
+  desc:Have <b>5</b> operating systems. (Currently: <b>[os]</b>)<//><t><i><#E60000>Destitute achievements earnt: </#> [destitute]</i></t>
+  
+  req:5 os
+  
+  icon:icons[1,0]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 destitute
+
+ *OSM3
+ 
+  name:Windows Pariah
+  
+  desc:Have <b>10</b> operating systems. (Currently: <b>[os]</b>)<//><t><i><#FF9500>Decent achievements earnt: </#> [decent]</i></t>
+  
+  req:10 os
+  
+  icon:icons[2,0]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 decent
+
+ *UPG1
+ 
+  name:One simple step
+  
+  desc:Have <b>1</b> operating system. (Currently: <b>[upg]</b>)<//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
+  
+  req:1 upg
+  
+  icon:icons[0,0]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 poor
+
+ *UPG2
+ 
+  name:More To-Do's
+  
+  desc:Have <b>5</b> operating system. (Currently: <b>[upg]</b>)<//><t><i><#E60000>Destitute achievements earnt: </#> [destitute]</i></t>
+  
+  req:5 upg
+  
+  icon:icons[1,0]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 destitute
+
+ *UPG3
+ 
+  name:Upgollector
+  
+  desc:Have <b>10</b> operating system. (Currently: <b>[upg]</b>)<//><t><i><#FF9500>Decent achievements earnt: </#> [decent]</i></t>
+  
+  req:10 upg
+  
+  icon:icons[2,0]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 decent
   
  *386M1
  
   name:And we have our microchip!
   
-  desc:Have <b>1</b> Intel 80386 processor. <//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
+  desc:Have <b>1</b> Intel 80386 processor. (Currently: <b>[i386]</b>)<//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
   
   req:1 i386
   
@@ -529,7 +662,7 @@ Achievements
  
   name:It's your damned games!
   
-  desc:Have <b>10</b> Intel 80386 processors. <//><t><i><#E60000>Destitute achievements earnt: </#> [destitute]</i></t>
+  desc:Have <b>10</b> Intel 80386 processors. (Currently: <b>[i386]</b>)<//><t><i><#E60000>Destitute achievements earnt: </#> [destitute]</i></t>
   
   req:10 i386
   
@@ -542,7 +675,7 @@ Achievements
  
   name:Demoscenes everywhere!
   
-  desc:Have <b>50</b> Intel 80386 processors. <//><t><i><#FF9500>Decent achievements earnt: </#> [decent]</i></t>
+  desc:Have <b>50</b> Intel 80386 processors. (Currently: <b>[i386]</b>)<//><t><i><#FF9500>Decent achievements earnt: </#> [decent]</i></t>
   
   req:50 i386
   
@@ -555,7 +688,7 @@ Achievements
  
   name:On OSI, You'll Love It!
   
-  desc:Have <b>100</b> Intel 80386 processors. <//><t><i><#FFFF00>Minimum achievements earnt: </#> [minimum]</i></t>
+  desc:Have <b>100</b> Intel 80386 processors. (Currently: <b>[i386]</b>)<//><t><i><#FFFF00>Minimum achievements earnt: </#> [minimum]</i></t>
   
   req:100 i386
   
@@ -568,7 +701,7 @@ Achievements
  
   name:Bought it on 1992 - already outdated
   
-  desc:Have <b>200</b> Intel 80386 processors. <//><t><i><#FFFF00>Entry achievements earnt: </#> [entry]</i></t>
+  desc:Have <b>200</b> Intel 80386 processors. (Currently: <b>[i386]</b>)<//><t><i><#FFFF00>Entry achievements earnt: </#> [entry]</i></t>
   
   req:200 i386
   
@@ -581,7 +714,7 @@ Achievements
  
   name:Together!
   
-  desc:Have <b>1</b> Intel 80486 processor. <//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
+  desc:Have <b>1</b> Intel 80486 processor. (Currently: <b>[i486]</b>)<//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
   
   req:1 i486
   
@@ -594,7 +727,7 @@ Achievements
  
   name:Multitasking
   
-  desc:Have <b>10</b> Intel 80486 processors. <//><t><i><#E60000>Destitute achievements earnt: </#> [destitute]</i></t>
+  desc:Have <b>10</b> Intel 80486 processors. (Currently: <b>[i486]</b>)<//><t><i><#E60000>Destitute achievements earnt: </#> [destitute]</i></t>
   
   req:10 i486
   
@@ -607,7 +740,7 @@ Achievements
  
   name:Whenever we recognize our new friends
   
-  desc:Have <b>50</b> Intel 80486 processors. <//><t><i><#FF9500>Decent achievements earnt: </#> [decent]</i></t>
+  desc:Have <b>50</b> Intel 80486 processors. (Currently: <b>[i486]</b>)<//><t><i><#FF9500>Decent achievements earnt: </#> [decent]</i></t>
   
   req:50 i486
   
@@ -620,7 +753,7 @@ Achievements
  
   name:Never slow down on 486
   
-  desc:Have <b>100</b> Intel 80486 processors. <//><t><i><#FFFF00>Minimum achievements earnt: </#> [minimum]</i></t>
+  desc:Have <b>100</b> Intel 80486 processors. (Currently: <b>[i486]</b>)<//><t><i><#FFFF00>Minimum achievements earnt: </#> [minimum]</i></t>
   
   req:100 i486
   
@@ -633,7 +766,7 @@ Achievements
  
   name:Intel Inside
   
-  desc:Have <b>200</b> Intel 80486 processors. <//><t><i><#FFFF00>Entry achievements earnt: </#> [entry]</i></t>
+  desc:Have <b>200</b> Intel 80486 processors. (Currently: <b>[i486]</b>)<//><t><i><#FFFF00>Entry achievements earnt: </#> [entry]</i></t>
   
   req:200 i486
   
