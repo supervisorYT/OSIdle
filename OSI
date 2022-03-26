@@ -1,10 +1,10 @@
 Let's make a game!
-Name: OSI A11 Det Preview
+Name: OSI A11 Deto Preview
 Desc: Placeholder graphics by Eric, the Grandma Clicker series developer<//> Spyonclear project Code Name OSIdle. <//><t><i><#D1D17A>Poor achievements earnt: </#> [poor]</i></t> <//><t><i><#D1D17A>Destitute achievements earnt: </#> [destitute]</i></t> <//><t><i><#D1D17A>Decent achievements earnt: </#> [decent]</i></t> <//><t><i><#D1D17A>Minimum achievements earnt: </#> [minimum]</i></t>
 by:Qavs
 Created: 17/03/2022
 Updated: 26/03/2022
-Version: 17
+Version: 18
  
 Settings
 
@@ -43,7 +43,7 @@ Resources
 
   desc:It may not affect on early game, however it would be must-need resource mid-game!
 
-  Icon:debug[2,4]
+  Icon:icons[2,4]
 
  *flop
 
@@ -53,7 +53,7 @@ Resources
   
   start with:1
 
-  Icon:debug[3,4]
+  Icon:icons[3,4]
 
  *byte
 
@@ -61,7 +61,7 @@ Resources
 
   desc:The ascension currency, with the greater benefit. Powers your building with the exchange of the soft reset.
 
-  Icon:debug[4,4]
+  Icon:icons[4,4]
   
  *os
  
@@ -266,7 +266,7 @@ Buildings
 
   cost:1 flop
 
-  Icon:debug[0,1]
+  Icon:icons[0,1]
   
   on tick:yield 1 flop
   
@@ -282,7 +282,7 @@ Buildings
 
   cost:750 flop
 
-  Icon:debug[1,1]
+  Icon:icons[1,1]
   
   on tick:yield 5 flop
   
@@ -298,7 +298,7 @@ Buildings
 
   cost:22000 flop
 
-  Icon:debug[2,1]
+  Icon:icons[2,1]
   
   on tick:yield 100 flop
   
@@ -314,7 +314,7 @@ Buildings
 
   cost:22000 flop
 
-  Icon:debug[2,1]
+  Icon:icons[3,1]
   
   on tick:yield 100 flop
   
