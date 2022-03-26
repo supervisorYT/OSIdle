@@ -4,7 +4,7 @@ Desc: Placeholder graphics by Eric, the Grandma Clicker series developer<//> Spy
 by:Qavs
 Created: 17/03/2022
 Updated: 26/03/2022
-Version: 15
+Version: 16
  
 Settings
 
@@ -332,7 +332,7 @@ Upgrades
 
   cost:750000 flop
 
-  passive:multiply flop yield of tag:microprocessor by (1+0.0001*boost*achievMultiplier)
+  passive:multiply flop yield of tag:microprocessor by (1+0.0001*boost)
 
   req:100 boost
   
@@ -348,7 +348,7 @@ Upgrades
 
   cost:4e11 flop
 
-  passive:multiply flop yield of tag:microprocessor by (1+0.00001*boost*achievMultiplier)
+  passive:multiply flop yield of tag:microprocessor by (1+0.00001*boost)
 
   req:10000 boost
   
