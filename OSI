@@ -1,10 +1,10 @@
 Let's make a game!
-Name: OSI A10 Det Preview
+Name: OSI A11 Det Preview
 Desc: Placeholder graphics by Eric, the Grandma Clicker series developer<//> Spyonclear project Code Name OSIdle. <//><t><i><#D1D17A>Poor achievements earnt: </#> [poor]</i></t> <//><t><i><#D1D17A>Destitute achievements earnt: </#> [destitute]</i></t> <//><t><i><#D1D17A>Decent achievements earnt: </#> [decent]</i></t> <//><t><i><#D1D17A>Minimum achievements earnt: </#> [minimum]</i></t>
 by:Qavs
 Created: 17/03/2022
 Updated: 26/03/2022
-Version: 16
+Version: 17
  
 Settings
 
@@ -262,7 +262,7 @@ Buildings
 
   name:Intel 80386
 
-  desc:Effect on updates, First level 
+  desc:Effect on updates, First level. Makes 1 unit of perfomance currency
 
   cost:1 flop
 
@@ -278,13 +278,45 @@ Buildings
 
   name:Intel 80486
 
-  desc:The microprocessor with great perfomance. This is Intel 80486
+  desc:The microprocessor with great perfomance. This is Intel 80486. Makes 5 units of perfomance currency
 
   cost:750 flop
 
   Icon:debug[1,1]
   
   on tick:yield 5 flop
+  
+  tag:microprocessor
+
+  show max
+  
+ *i586
+
+  name:Pentium
+
+  desc:The microprocessor with great perfomance. This is Intel 80486. Makes 100 units of perfomance currency
+
+  cost:22000 flop
+
+  Icon:debug[2,1]
+  
+  on tick:yield 100 flop
+  
+  tag:microprocessor
+
+  show max
+  
+ *i686
+
+  name:P6
+
+  desc:The microprocessor with great perfomance. This is Intel 80486. Makes 100 units of perfomance currency
+
+  cost:22000 flop
+
+  Icon:debug[2,1]
+  
+  on tick:yield 100 flop
   
   tag:microprocessor
 
@@ -363,7 +395,7 @@ Achievements
  
   name:First try
   
-  desc:Have <b>1 unit</b> of perfomance currency. <//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
+  desc:Have <b>1 unit</b> of perfomance currency. (Currently: <b>[flop:earned]</b>)<//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
   
   req:1 flop:earned
   
@@ -376,7 +408,7 @@ Achievements
  
   name:Just before the action
   
-  desc:Have <b>100 units</b> of perfomance currency. <//><t><i><#E60000>Destitute achievements earnt: </#> [destitute]</i></t>
+  desc:Have <b>100 units</b> of perfomance currency. (Currently: <b>[flop:earned]</b>)<//><t><i><#E60000>Destitute achievements earnt: </#> [destitute]</i></t>
   
   req:100 flop:earned
   
@@ -389,7 +421,7 @@ Achievements
  
   name:Enjoy our nice work ;)
   
-  desc:Have <b>1 thousand</b> of perfomance currency. <//><t><i><#FF9500>Decent achievements earnt: </#> [decent]</i></t>
+  desc:Have <b>1 thousand</b> of perfomance currency. (Currently: <b>[flop:earned]</b>)<//><t><i><#FF9500>Decent achievements earnt: </#> [decent]</i></t>
   
   req:1000 flop:earned
   
@@ -402,7 +434,7 @@ Achievements
  
   name:The source of Perfomance
   
-  desc:Have <b>100 thousands</b> of perfomance currency. <//><t><i><#FFFF00>Minimum achievements earnt: </#> [minimum]</i></t>
+  desc:Have <b>100 thousands</b> of perfomance currency. (Currently: <b>[flop:earned]</b>)<//><t><i><#FFFF00>Minimum achievements earnt: </#> [minimum]</i></t>
   
   req:100000 flop:earned
   
@@ -415,7 +447,7 @@ Achievements
  
   name:Giving the power
   
-  desc:Have <b>1 million</b> of perfomance currency. <//><t><i><#BBBBBB>Entry achievements earnt: </#> [entry]</i></t>
+  desc:Have <b>1 million</b> of perfomance currency. (Currently: <b>[flop:earned]</b>)<//><t><i><#BBBBBB>Entry achievements earnt: </#> [entry]</i></t>
   
   req:1e6 flop:earned
   
@@ -428,7 +460,7 @@ Achievements
  
   name:Get a good speed
   
-  desc:Have <b>100 millions</b> of perfomance currency. <//><t><i><#BBBBBB>Modest achievements earnt: </#> [modest]</i></t>
+  desc:Have <b>100 millions</b> of perfomance currency. (Currently: <b>[flop:earned]</b>)<//><t><i><#BBBBBB>Modest achievements earnt: </#> [modest]</i></t>
   
   req:1e8 flop:earned
   
@@ -441,7 +473,7 @@ Achievements
  
   name:Finding a way to get as much operating systems as possible within my limits
   
-  desc:Have <b>10 billions</b> of perfomance currency. <//><t><i><#FFFFFF>Fair achievements earnt: </#> [fair]</i></t>
+  desc:Have <b>10 billions</b> of perfomance currency. (Currently: <b>[flop:earned]</b>)<//><t><i><#FFFFFF>Fair achievements earnt: </#> [fair]</i></t>
   
   req:1e10 flop:earned
   
@@ -454,7 +486,7 @@ Achievements
  
   name:A decent PC
   
-  desc:Have <b>1 trillion</b> of perfomance currency. <//><t><i><#6EDB00>Fine achievements earnt: </#> [fine]</i></t>
+  desc:Have <b>1 trillion</b> of perfomance currency. (Currently: <b>[flop:earned]</b>)<//><t><i><#6EDB00>Fine achievements earnt: </#> [fine]</i></t>
   
   req:1e12 flop:earned
   
@@ -467,7 +499,7 @@ Achievements
  
   name:Permanent source
   
-  desc:Have <b>10 unit</b> of perfomance per second. <//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
+  desc:Have <b>10 unit</b> of perfomance per second. (Currently: <b>[flop:ps]</b>)<//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
   
   req:flop:ps>=10
   
@@ -480,7 +512,7 @@ Achievements
  
   name:Run throught
   
-  desc:Have <b>1 thousand</b> of perfomance per second. <//><t><i><#E60000>Destitute achievements earnt: </#> [destitute]</i></t>
+  desc:Have <b>1 thousand</b> of perfomance per second. (Currently: <b>[flop:ps]</b>)<//><t><i><#E60000>Destitute achievements earnt: </#> [destitute]</i></t>
   
   req:flop:ps>=1000
   
@@ -493,7 +525,7 @@ Achievements
  
   name:Real-time calculation
   
-  desc:Have <b>10 thousand</b> of perfomance per second. <//><t><i><#FF9500>Decent achievements earnt: </#> [decent]</i></t>
+  desc:Have <b>10 thousand</b> of perfomance per second. (Currently: <b>[flop:ps]</b>)<//><t><i><#FF9500>Decent achievements earnt: </#> [decent]</i></t>
   
   req:flop:ps>=10000
   
@@ -506,7 +538,7 @@ Achievements
  
   name:Great calculation
   
-  desc:Have <b>1 million</b> of perfomance per second. <//><t><i><#FFFF00>Minimum achievements earnt: </#> [minimum]</i></t>
+  desc:Have <b>1 million</b> of perfomance per second. (Currently: <b>[flop:ps]</b>)<//><t><i><#FFFF00>Minimum achievements earnt: </#> [minimum]</i></t>
   
   req:flop:ps>=1e6
   
@@ -519,7 +551,7 @@ Achievements
  
   name:DOOM MF
   
-  desc:Have <b>10 million</b> of perfomance per second. <//><t><i><#BBBBBB>Entry achievements earnt: </#> [entry]</i></t>
+  desc:Have <b>10 million</b> of perfomance per second. (Currently: <b>[flop:ps]</b>)<//><t><i><#BBBBBB>Entry achievements earnt: </#> [entry]</i></t>
   
   req:flop:ps>=1e7
   
@@ -532,7 +564,7 @@ Achievements
  
   name:Playstation 2
   
-  desc:Have <b>1 billion</b> of perfomance per second. <//><t><i><#BBBBBB>Modest achievements earnt: </#> [modest]</i></t>
+  desc:Have <b>1 billion</b> of perfomance per second. (Currently: <b>[flop:ps]</b>)<//><t><i><#BBBBBB>Modest achievements earnt: </#> [modest]</i></t>
   
   req:flop:ps>=1e9
   
@@ -545,7 +577,7 @@ Achievements
  
   name:Microsoft Xbox
   
-  desc:Have <b>10 billions</b> of perfomance per second. <//><t><i><#FFFFFF>Fair achievements earnt: </#> [fair]</i></t>
+  desc:Have <b>10 billions</b> of perfomance per second. (Currently: <b>[flop:ps]</b>)<//><t><i><#FFFFFF>Fair achievements earnt: </#> [fair]</i></t>
   
   req:flop:ps>=1e10
   
@@ -558,7 +590,7 @@ Achievements
  
   name:Have a nice personal computer perfomance.
   
-  desc:Have <b>1 trillion</b> of perfomance per second. <//><t><i><#6EDB00>Fine achievements earnt: </#> [fine]</i></t>
+  desc:Have <b>1 trillion</b> of perfomance per second. (Currently: <b>[flop:ps]</b>)<//><t><i><#6EDB00>Fine achievements earnt: </#> [fine]</i></t>
   
   req:flop:ps>=1e12
   
@@ -779,7 +811,7 @@ Achievements
  
   name:We're just starting!
   
-  desc:Clicked <b>15</b> times to boost <//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
+  desc:Clicked <b>15</b> times to boost (Currently: <b>[boost]</b>)<//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
   
   req:15 boost
   
@@ -792,7 +824,7 @@ Achievements
  
   name:And yet we're still here!
   
-  desc:Clicked <b>100</b> times to boost <//><t><i><#E60000>Destitute achievements earnt: </#> [destitute]</i></t>
+  desc:Clicked <b>100</b> times to boost (Currently: <b>[boost]</b>)<//><t><i><#E60000>Destitute achievements earnt: </#> [destitute]</i></t>
   
   req:100 boost
   
@@ -805,7 +837,7 @@ Achievements
  
   name:Click to go
   
-  desc:Clicked <b>300</b> times to boost <//><t><i><#FF9500>Decent achievements earnt: </#> [decent]</i></t>
+  desc:Clicked <b>300</b> times to boost (Currently: <b>[boost]</b>)<//><t><i><#FF9500>Decent achievements earnt: </#> [decent]</i></t>
   
   req:300 boost
   
@@ -818,7 +850,7 @@ Achievements
  
   name:You're clicking still
   
-  desc:Clicked <b>1000</b> times to boost <//><t><i><#FFFF00>Minimum achievements earnt: </#> [minimum]</i></t>
+  desc:Clicked <b>1000</b> times to boost (Currently: <b>[boost]</b>)<//><t><i><#FFFF00>Minimum achievements earnt: </#> [minimum]</i></t>
   
   req:1000 boost
   
