@@ -4,7 +4,7 @@ Desc: Placeholder graphics by Eric, the Grandma Clicker series developer<//> Spy
 by:Qavs
 Created: 17/03/2022
 Updated: 30/03/2022
-Version: 19
+Version: 20
  
 Settings
 
@@ -803,6 +803,136 @@ Achievements
   req:200 i486
   
   icon:icons[4,0] icons[1,1]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 entry
+  
+ *586M1
+ 
+  name:Pentium-sensitive
+  
+  desc:Have <b>1</b> Pentium processor. (Currently: <b>[i586]</b>)<//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
+  
+  req:1 i586
+  
+  icon:icons[0,0] icons[2,1]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 poor
+  
+ *586M2
+ 
+  name:MMX
+  
+  desc:Have <b>10</b> Pentium processors. (Currently: <b>[i586]</b>)<//><t><i><#E60000>Destitute achievements earnt: </#> [destitute]</i></t>
+  
+  req:10 i586
+  
+  icon:icons[1,0] icons[2,1]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 destitute
+  
+ *586M3
+ 
+  name:133 MHz
+  
+  desc:Have <b>50</b> Pentium processors. (Currently: <b>[i586]</b>)<//><t><i><#FF9500>Decent achievements earnt: </#> [decent]</i></t>
+  
+  req:50 i586
+  
+  icon:icons[2,0] icons[2,1]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 decent
+  
+ *586M4
+ 
+  name:OverDrive
+  
+  desc:Have <b>100</b> Pentium processors. (Currently: <b>[i586]</b>)<//><t><i><#FFFF00>Minimum achievements earnt: </#> [minimum]</i></t>
+  
+  req:100 i586
+  
+  icon:icons[3,0] icons[2,1]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 minimum
+  
+ *586M5
+ 
+  name:Never enough
+  
+  desc:Have <b>200</b> Pentium processors. (Currently: <b>[i586]</b>)<//><t><i><#FFFF00>Entry achievements earnt: </#> [entry]</i></t>
+  
+  req:200 i586
+  
+  icon:icons[4,0] icons[2,1]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 entry
+   
+ *686M1
+ 
+  name:Pentium-sensitive
+  
+  desc:Have <b>1</b> P6 processor. (Currently: <b>[i686]</b>)<//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
+  
+  req:1 i686
+  
+  icon:icons[0,0] icons[3,1]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 poor
+  
+ *686M2
+ 
+  name:MMX
+  
+  desc:Have <b>10</b> P6 processors. (Currently: <b>[i686]</b>)<//><t><i><#E60000>Destitute achievements earnt: </#> [destitute]</i></t>
+  
+  req:10 i686
+  
+  icon:icons[1,0] icons[3,1]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 destitute
+  
+ *686M3
+ 
+  name:133 MHz
+  
+  desc:Have <b>50</b> P6 processors. (Currently: <b>[i686]</b>)<//><t><i><#FF9500>Decent achievements earnt: </#> [decent]</i></t>
+  
+  req:50 i686
+  
+  icon:icons[2,0] icons[3,1]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 decent
+  
+ *686M4
+ 
+  name:OverDrive
+  
+  desc:Have <b>100</b> P6 processors. (Currently: <b>[i686]</b>)<//><t><i><#FFFF00>Minimum achievements earnt: </#> [minimum]</i></t>
+  
+  req:100 i686
+  
+  icon:icons[3,0] icons[3,1]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 minimum
+  
+ *686M5
+ 
+  name:Never enough
+  
+  desc:Have <b>200</b> P6 processors. (Currently: <b>[i686]</b>)<//><t><i><#FFFF00>Entry achievements earnt: </#> [entry]</i></t>
+  
+  req:200 i686
+  
+  icon:icons[4,0] icons[3,1]
   
   on earn:yield 1 ach
   on earn:yield 1 entry
