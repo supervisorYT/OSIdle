@@ -328,7 +328,7 @@ Upgrades
 
   name:Windows/386 Version 2.03
 
-  desc:Powering Intel 80308 with increased X1.4 perfomance
+  desc:Powering Intel 80386 with increased X1.4 perfomance
 
   cost:3 flop
 
@@ -338,13 +338,13 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:debug[2,3] debug[0,2]
+  Icon:icons[2,3] icons[0,2]
 
  *386OS2
 
   name:Windows/386 Version 2.10
 
-  desc:Powering Intel 80308 with increased X1.4 perfomance
+  desc:Powering Intel 80386 with increased X1.4 perfomance
 
   cost:250 flop
 
@@ -354,7 +354,231 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:debug[2,3] debug[1,2]
+  Icon:icons[2,3] icons[1,2]
+  
+ *386OS3
+
+  name:Windows/386 Version 2.11
+
+  desc:Powering Intel 80386 with increased X1.4 perfomance
+
+  cost:1800 flop
+
+  passive:multiply yield of i386 by 1.4
+
+  req:35 i386
+  
+  on earn:yield 1 os
+
+  Icon:icons[12,3] icons[11,2] icons[1,2]
+  
+ *386OS4
+
+  name:Windows Version 3.0
+
+  desc:Powering Intel 80386 with increased X1.6 perfomance
+
+  cost:20000 flop
+
+  passive:multiply yield of i386 by 1.6
+
+  req:60 i386
+  
+  on earn:yield 1 os
+
+  Icon:icons[3,3] icons[0,2]
+  
+ *386OS5
+
+  name:Windows Version 3.1
+
+  desc:Powering Intel 80386 with increased X1.7 perfomance
+
+  cost:4e6 flop
+
+  passive:multiply yield of i386 by 1.7
+
+  req:95 i386
+  
+  on earn:yield 1 os
+
+  Icon:icons[3,3] icons[1,2]
+  
+ *386OS6
+
+  name:Windows Version 3.11
+
+  desc:Powering Intel 80386 with increased X1.8 perfomance
+
+  cost:2e8 flop
+
+  passive:multiply yield of i386 by 1.8
+
+  req:120 i386
+  
+  on earn:yield 1 os
+
+  Icon:icons[13,3] icons[11,2] icons[1,2]
+  
+ *386OS7
+
+  name:Windows NT Workstation
+
+  desc:Powering Intel 80386 with increased X2 perfomance
+
+  cost:1e10 flop
+
+  passive:multiply yield of i386 by 2
+
+  req:150 i386
+  
+  on earn:yield 1 os
+
+  Icon:icons[13,3] icons[11,2]
+  
+ *386OS8
+
+  name:Linux Kernel
+
+  desc:Powering Intel 80386 with increased X2 perfomance
+
+  cost:1e12 flop
+
+  passive:multiply yield of i386 by 2
+
+  req:200 i386
+  
+  on earn:yield 1 os
+
+  Icon:icons[13,3] icons[11,2]
+  
+  *486OS1
+
+  name:Windows 95
+
+  desc:Powering Intel 80486 with increased X1.4 perfomance
+
+  cost:1500 flop
+
+  passive:multiply yield of i486 by 1.4
+
+  req:1 i486
+  
+  on earn:yield 1 os
+
+  Icon:icons[9,3] icons[5,2]
+
+ *486OS2
+
+  name:Microsoft Nashville
+
+  desc:Powering Intel 80486 with increased X1.4 perfomance
+
+  cost:33000 flop
+
+  passive:multiply yield of i486 by 1.4
+
+  req:15 i486
+  
+  on earn:yield 1 os
+
+  Icon:icons[9,3] icons[6,2]
+  
+ *486OS3
+
+  name:OS/2 Warp version 4.0
+
+  desc:Powering Intel 80486 with increased X1.4 perfomance
+
+  cost:170000 flop
+
+  passive:multiply yield of i486 by 1.4
+
+  req:35 i386
+  
+  on earn:yield 1 os
+
+  Icon:icons[4,3] icons[0,2]
+  
+ *486OS4
+
+  name:FreeDOS
+
+  desc:Powering Intel 80486 with increased X1.6 perfomance
+
+  cost:6800000 flop
+
+  passive:multiply yield of i486 by 1.6
+
+  req:60 i486
+  
+  on earn:yield 1 os
+
+  Icon:icons[50,50]
+  
+ *486OS5
+
+  name:Windows for Workgroups Version 3.1
+
+  desc:Powering Intel 80486 with increased X1.7 perfomance
+
+  cost:1.3e8 flop
+
+  passive:multiply yield of i486 by 1.7
+
+  req:95 i486
+  
+  on earn:yield 1 os
+
+  Icon:icons[3,3] icons[1,2]
+  
+ *486OS6
+
+  name:Windows for Workgroups Version 3.11
+
+  desc:Powering Intel 80486 with increased X1.8 perfomance
+
+  cost:6e10 flop
+
+  passive:multiply yield of i486 by 1.8
+
+  req:120 i486
+  
+  on earn:yield 1 os
+
+  Icon:icons[13,3] icons[11,2] icons[1,2]
+  
+ *486OS7
+
+  name:Windows NT Server
+
+  desc:Powering Intel 80486 with increased X2 perfomance
+
+  cost:7e11 flop
+
+  passive:multiply yield of i486 by 2
+
+  req:150 i386
+  
+  on earn:yield 1 os
+
+  Icon:icons[13,3] icons[11,2]
+  
+ *486OS8
+
+  name:Slackware
+
+  desc:Powering Intel 80486 with increased X2 perfomance
+
+  cost:8e12 flop
+
+  passive:multiply yield of i486 by 2
+
+  req:200 i486
+  
+  on earn:yield 1 os
+
+  Icon:icons[13,3] icons[11,2]
   
  *click1
 
@@ -387,6 +611,70 @@ Upgrades
   on earn:yield 1 upg
 
   Icon:icons[21,7] icons[20,6] icons[10,6] icons[0,6] icons[1,5] icons[2,4]
+  
+ *click3
+
+  name:Iron Mouse
+
+  desc:Increace your performance by 0.1% per thousand boost clicks
+
+  cost:9e20 flop
+
+  passive:multiply flop yield of tag:microprocessor by (1+0.000001*boost)
+
+  req:100000 boost
+  
+  on earn:yield 1 upg
+
+  Icon:icons[11,7] icons[10,6] icons[0,6] icons[1,5] icons[2,4]
+  
+ *click4
+
+  name:Golden Mouse
+
+  desc:Increace your performance by 50% per million boost clicks
+
+  cost:3.35e37 flop
+
+  passive:multiply flop yield of tag:microprocessor by (1+0.0000005*boost)
+
+  req:1000000 boost
+  
+  on earn:yield 1 upg
+
+  Icon:icons[15,7] icons[0,6] icons[1,5] icons[2,4]
+  
+ *click5
+
+  name:Firing your hand
+
+  desc:Increace your performance by 10% per million boost clicks
+
+  cost:1e86 flop
+
+  passive:multiply flop yield of tag:microprocessor by (1+0.0000001*boost)
+
+  req:10000000 boost
+  
+  on earn:yield 1 upg
+
+  Icon:icons[11,7] icons[0,6] icons[1,5] icons[2,4]
+  
+ *click6
+
+  name:Autoclicker Confirmed!
+
+  desc:Increace your performance by 1% per million boost clicks
+
+  cost:9.2e292 flop
+
+  passive:multiply flop yield of tag:microprocessor by (1+0.00000001*boost)
+
+  req:100000000 boost
+  
+  on earn:yield 1 upg
+
+  Icon:icons[1,6] icons[1,5] icons[2,4]
   
   
 Achievements
