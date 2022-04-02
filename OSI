@@ -1,10 +1,10 @@
 Let's make a game!
-Name: OSI A11 Deto Preview
+Name: OSI A14 Pux Preview
 Desc: Placeholder graphics by Eric, the Grandma Clicker series developer<//> Spyonclear project Code Name OSIdle. <//><t><i><#D1D17A>Poor achievements earnt: </#> [poor]</i></t> <//><t><i><#D1D17A>Destitute achievements earnt: </#> [destitute]</i></t> <//><t><i><#D1D17A>Decent achievements earnt: </#> [decent]</i></t> <//><t><i><#D1D17A>Minimum achievements earnt: </#> [minimum]</i></t>
 by:Qavs
 Created: 17/03/2022
 Updated: 30/03/2022
-Version: 20
+Version: 22
  
 Settings
 
@@ -494,7 +494,7 @@ Upgrades
 
   passive:multiply yield of i486 by 1.4
 
-  req:35 i386
+  req:35 i486
   
   on earn:yield 1 os
 
@@ -558,11 +558,11 @@ Upgrades
 
   passive:multiply yield of i486 by 2
 
-  req:150 i386
+  req:150 i486
   
   on earn:yield 1 os
 
-  Icon:icons[13,3] icons[11,2]
+  Icon:
   
  *486OS8
 
@@ -578,7 +578,263 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[13,3] icons[11,2]
+  Icon:
+    
+  *586OS1
+
+  name:Windows 95 OSR2
+
+  desc:Powering Pentium with increased X1.4 perfomance
+
+  cost:9600 flop
+
+  passive:multiply yield of i586 by 1.4
+
+  req:1 i586
+  
+  on earn:yield 1 os
+
+  Icon:icons[9,3] icons[5,2]
+
+ *586OS2
+
+  name:Debian
+
+  desc:Powering Pentium with increased X1.4 perfomance
+
+  cost:68000 flop
+
+  passive:multiply yield of i586 by 1.4
+
+  req:15 i586
+  
+  on earn:yield 1 os
+
+  Icon:
+  
+ *586OS3
+
+  name:Red Hat Linux
+
+  desc:Powering Pentium with increased X1.4 perfomance
+
+  cost:230000 flop
+
+  passive:multiply yield of i586 by 1.4
+
+  req:35 i586
+  
+  on earn:yield 1 os
+
+  Icon:
+  
+ *586OS4
+
+  name:Microsoft Cairo
+
+  desc:Powering Pentium with increased X1.6 perfomance
+
+  cost:5000000 flop
+
+  passive:multiply yield of i586 by 1.6
+
+  req:60 i586
+  
+  on earn:yield 1 os
+
+  Icon:
+  
+ *586OS5
+
+  name:OS/2 Warp Server for e-Business
+
+  desc:Powering Pentium with increased X1.7 perfomance
+
+  cost:7.77777777e7 flop
+
+  passive:multiply yield of i586 by 1.7
+
+  req:95 i586
+  
+  on earn:yield 1 os
+
+  Icon:icons[4,3] icons[5,2]
+  
+ *586OS6
+
+  name:WorkSpace On-Demand
+
+  desc:Powering Pentium with increased X1.8 perfomance
+
+  cost:2e10 flop
+
+  passive:multiply yield of i586 by 1.8
+
+  req:120 i586
+  
+  on earn:yield 1 os
+
+  Icon:
+  
+ *586OS7
+
+  name:Windows NT Terminal Server Edition
+
+  desc:Powering Pentium with increased X2 perfomance
+
+  cost:1.4e12 flop
+
+  passive:multiply yield of i586 by 2
+
+  req:150 i586
+  
+  on earn:yield 1 os
+
+  Icon:icons[4,3] icons[0,2]
+  
+ *586OS8
+
+  name:Windows NT Embedded
+
+  desc:Powering Pentium with increased X2 perfomance
+
+  cost:5e13 flop
+
+  passive:multiply yield of i586 by 2
+
+  req:200 i586
+  
+  on earn:yield 1 os
+
+  Icon:icons[4,3] icons[0,2]
+  
+ *686OS1
+
+  name:Windows 98
+
+  desc:Powering P6 with increased X1.4 perfomance
+
+  cost:1740000 flop
+
+  passive:multiply yield of i686 by 1.4
+
+  req:1 i686
+  
+  on earn:yield 1 os
+
+  Icon:icons[9,3] icons[8,2]
+
+ *686OS2
+
+  name:Windows 98SE
+
+  desc:Powering P6 with increased X1.4 perfomance
+
+  cost:4e8 flop
+
+  passive:multiply yield of i686 by 1.4
+
+  req:15 i686
+  
+  on earn:yield 1 os
+
+  Icon:icons[9,3] icons[8,2]
+  
+ *686OS3
+
+  name:Windows Millenium Edition
+
+  desc:Powering P6 with increased X1.4 perfomance
+
+  cost:1.1e9 flop
+
+  passive:multiply yield of i686 by 1.4
+
+  req:35 i686
+  
+  on earn:yield 1 os
+
+  Icon:
+  
+ *686OS4
+
+  name:Windows 2000
+
+  desc:Powering P6 with increased X1.6 perfomance
+
+  cost:4e10 flop
+
+  passive:multiply yield of i686 by 1.6
+
+  req:60 i686
+  
+  on earn:yield 1 os
+
+  Icon:icons[21,3] icons[20,2] icons[10,2] icons[0,2]
+  
+ *686OS5
+
+  name:Windows XP
+
+  desc:Powering P6 with increased X1.7 perfomance
+
+  cost:2.2e11 flop
+
+  passive:multiply yield of i686 by 1.7
+
+  req:95 i686
+  
+  on earn:yield 1 os
+
+  Icon:icons[4,3] icons[5,2]
+  
+ *686OS6
+
+  name:ReactOS
+
+  desc:Powering P6 with increased X1.8 perfomance
+
+  cost:9.7e11 flop
+
+  passive:multiply yield of i686 by 1.8
+
+  req:120 i686
+  
+  on earn:yield 1 os
+
+  Icon:
+  
+ *686OS7
+
+  name:SkyOS
+
+  desc:Powering P6 with increased X2 perfomance
+
+  cost:4e13 flop
+
+  passive:multiply yield of i686 by 2
+
+  req:150 i686
+  
+  on earn:yield 1 os
+
+  Icon:icons[4,3] icons[0,2]
+  
+ *686OS8
+
+  name:DR-WebSpyder
+
+  desc:Powering P6 with increased X2 perfomance
+
+  cost:9e15 flop
+
+  passive:multiply yield of i686 by 2
+
+  req:200 i686
+  
+  on earn:yield 1 os
+
+  Icon:icons[4,3] icons[0,2]
   
  *click1
 
