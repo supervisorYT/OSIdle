@@ -1,10 +1,10 @@
 Let's make a game!
-Name: OSI A14 Pux Preview
+Name: OSI A15 Preview
 Desc: Placeholder graphics by Eric, the Grandma Clicker series developer<//> Spyonclear project Code Name OSIdle. <//><t><i><#D1D17A>Poor achievements earnt: </#> [poor]</i></t> <//><t><i><#D1D17A>Destitute achievements earnt: </#> [destitute]</i></t> <//><t><i><#D1D17A>Decent achievements earnt: </#> [decent]</i></t> <//><t><i><#D1D17A>Minimum achievements earnt: </#> [minimum]</i></t>
 by:Qavs
 Created: 17/03/2022
-Updated: 30/03/2022
-Version: 22
+Updated: 11/04/2022
+Version: 23
  
 Settings
 
@@ -1532,3 +1532,55 @@ Achievements
   
   on earn:yield 1 ach
   on earn:yield 1 minimum
+
+ *clickM5
+ 
+  name:Make it thousands
+  
+  desc:Clicked <b>2000</b> times to boost (Currently: <b>[boost]</b>)<//><t><i><#FFFF00>Entry achievements earnt: </#> [entry]</i></t>
+  
+  req:2000 boost
+  
+  icon:icons[4,0] icons[2,4]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 entry
+
+ *clickM6
+ 
+  name:The mouse
+  
+  desc:Clicked <b>5000</b> times to boost (Currently: <b>[boost]</b>)<//><t><i><#BBBBBB>Modest achievements earnt: </#> [modest]</i></t>
+  
+  req:5000 boost
+  
+  icon:icons[5,0] icons[2,4]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 modest
+  
+ *clickM7
+ 
+  name:Overclocking
+  
+  desc:Clicked <b>10000</b> times to boost (Currently: <b>[boost]</b>)<//><t><i><#FFFFFF>Fair achievements earnt: </#> [fair]</i></t>
+  
+  req:10000 boost
+  
+  icon:icons[6,0] icons[2,4]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 fair
+  
+ *clickM8
+ 
+  name:It have to give power
+  
+  desc:Clicked <b>15000</b> times to boost (Currently: <b>[boost]</b>)<//><t><i><#6EDB00>Fine achievements earnt: </#> [fine]</i></t>
+  
+  req:15000 boost
+  
+  icon:icons[7,0] icons[2,4]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 fine
