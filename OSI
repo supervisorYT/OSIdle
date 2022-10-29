@@ -1,10 +1,10 @@
 Let's make a game!
-Name: OSI A15 Preview
+Name: OSI A16 Preview
 Desc: Placeholder graphics by Eric, the Grandma Clicker series developer<//> Spyonclear project Code Name OSIdle. <//><t><i><#D1D17A>Poor achievements earnt: </#> [poor]</i></t> <//><t><i><#D1D17A>Destitute achievements earnt: </#> [destitute]</i></t> <//><t><i><#D1D17A>Decent achievements earnt: </#> [decent]</i></t> <//><t><i><#D1D17A>Minimum achievements earnt: </#> [minimum]</i></t>
 by:Qavs
 Created: 17/03/2022
 Updated: 11/04/2022
-Version: 23
+Version: 24
  
 Settings
 
@@ -310,13 +310,45 @@ Buildings
 
   name:P6
 
-  desc:No, Pentium MMX was still P5. Makes 1400 units of perfomance currency
+  desc:No, Pentium MMX was still P5. Makes 1 400 units of perfomance currency
 
   cost:600000 flop
 
   Icon:icons[3,1]
   
   on tick:yield 1400 flop
+  
+  tag:microprocessor
+
+  show max
+  
+ *x64
+
+  name:x86-64
+
+  desc:Is it Intel Core? I dunno! Makes 280 000 units of perfomance currency
+
+  cost:115000000 flop
+
+  Icon:icons[4,1]
+  
+  on tick:yield 280000 flop
+  
+  tag:microprocessor
+
+  show max
+  
+ *IA-64
+
+  name:Itanium
+
+  desc:Itanium wasn't just for you. Intel Itanium architecture was previously called IA-64 Makes 280 000 units of perfomance currency
+
+  cost:6.8e9 flop
+
+  Icon:icons[5,1]
+  
+  on tick:yield 5000000 flop
   
   tag:microprocessor
 
@@ -831,6 +863,134 @@ Upgrades
   passive:multiply yield of i686 by 2
 
   req:200 i686
+  
+  on earn:yield 1 os
+
+  Icon:icons[4,3] icons[0,2]
+  
+ *64OS1
+
+  name:Windows Vista
+
+  desc:Powering x86-64 with increased X1.4 perfomance
+
+  cost:200000000 flop
+
+  passive:multiply yield of x64 by 1.4
+
+  req:1 x64
+  
+  on earn:yield 1 os
+
+  Icon:icons[9,3] icons[8,2]
+
+ *64OS2
+
+  name:Ubuntu
+
+  desc:Powering x86-64 with increased X1.4 perfomance
+
+  cost:8e9 flop
+
+  passive:multiply yield of x64 by 1.4
+
+  req:15 x64
+  
+  on earn:yield 1 os
+
+  Icon:icons[9,3] icons[8,2]
+  
+ *64OS3
+
+  name:Windows XP Media Center Edition
+
+  desc:Powering x86-64 with increased X1.4 perfomance
+
+  cost:5e10 flop
+
+  passive:multiply yield of x64 by 1.4
+
+  req:35 x64
+  
+  on earn:yield 1 os
+
+  Icon:
+  
+ *64OS4
+
+  name:OS X Leopard
+
+  desc:Powering x86-64 with increased X1.6 perfomance
+
+  cost:3.38e11 flop
+
+  passive:multiply yield of x64 by 1.6
+
+  req:60 x64
+  
+  on earn:yield 1 os
+
+  Icon:icons[21,3] icons[20,2] icons[10,2] icons[0,2]
+  
+ *64OS5
+
+  name:OS X Lion
+
+  desc:Powering x86-64 with increased X1.7 perfomance
+
+  cost:1.328e13 flop
+
+  passive:multiply yield of x64 by 1.7
+
+  req:95 x64
+  
+  on earn:yield 1 os
+
+  Icon:icons[4,3] icons[5,2]
+  
+ *64OS6
+
+  name:Mandriva
+
+  desc:Powering x86-64 with increased X1.8 perfomance
+
+  cost:2.2e14 flop
+
+  passive:multiply yield of x64 by 1.8
+
+  req:120 x64
+  
+  on earn:yield 1 os
+
+  Icon:
+  
+ *64OS7
+
+  name:macOS Sierra
+
+  desc:Powering x86-64 with increased X2 perfomance
+
+  cost:9.7e14 flop
+
+  passive:multiply yield of x64 by 2
+
+  req:150 x64
+  
+  on earn:yield 1 os
+
+  Icon:icons[4,3] icons[0,2]
+  
+ *64OS8
+
+  name:Windows 7
+
+  desc:Powering x86-64 with increased X2 perfomance
+
+  cost:4e17 flop
+
+  passive:multiply yield of x64 by 2
+
+  req:200 x64
   
   on earn:yield 1 os
 
@@ -1477,6 +1637,136 @@ Achievements
   req:200 i686
   
   icon:icons[4,0] icons[3,1]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 entry
+  
+ *64M1
+ 
+  name:Known as x86_64
+  
+  desc:Have <b>1</b> x86-64 processor. (Currently: <b>[x64]</b>)<//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
+  
+  req:1 x64
+  
+  icon:icons[0,0] icons[4,1]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 poor
+  
+ *64M2
+ 
+  name:Also known as Intel 64
+  
+  desc:Have <b>10</b> x86-64 processors. (Currently: <b>[x64]</b>)<//><t><i><#E60000>Destitute achievements earnt: </#> [destitute]</i></t>
+  
+  req:10 x64
+  
+  icon:icons[1,0] icons[4,1]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 destitute
+  
+ *64M3
+ 
+  name:SSE
+  
+  desc:Have <b>50</b> x86-64 processors. (Currently: <b>[x64]</b>)<//><t><i><#FF9500>Decent achievements earnt: </#> [decent]</i></t>
+  
+  req:50 x64
+  
+  icon:icons[2,0] icons[4,1]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 decent
+  
+ *64M4
+ 
+  name:No-Execute bit
+  
+  desc:Have <b>100</b> x86-64 processors. (Currently: <b>[x64]</b>)<//><t><i><#FFFF00>Minimum achievements earnt: </#> [minimum]</i></t>
+  
+  req:100 x64
+  
+  icon:icons[3,0] icons[4,1]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 minimum
+  
+ *64M5
+ 
+  name:It's not enough!
+  
+  desc:Have <b>200</b> x86-64 processors. (Currently: <b>[x64]</b>)<//><t><i><#FFFF00>Entry achievements earnt: </#> [entry]</i></t>
+  
+  req:200 x64
+  
+  icon:icons[4,0] icons[4,1]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 entry
+  
+ *IAM1
+ 
+  name:I am the one
+  
+  desc:Have <b>1</b> Itanium processor. (Currently: <b>[IA-64]</b>)<//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
+  
+  req:1 IA-64
+  
+  icon:icons[0,0] icons[5,1]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 poor
+  
+ *IAM2
+ 
+  name:Still known as Intel 64
+  
+  desc:Have <b>10</b> Itanium processors. (Currently: <b>[IA-64]</b>)<//><t><i><#E60000>Destitute achievements earnt: </#> [destitute]</i></t>
+  
+  req:10 IA-64
+  
+  icon:icons[1,0] icons[5,1]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 destitute
+  
+ *IAM3
+ 
+  name:This for servers?
+  
+  desc:Have <b>50</b> Itanium processors. (Currently: <b>[IA-64]</b>)<//><t><i><#FF9500>Decent achievements earnt: </#> [decent]</i></t>
+  
+  req:50 IA-64
+  
+  icon:icons[2,0] icons[5,1]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 decent
+  
+ *IAM4
+ 
+  name:Microsoft Windows for Server Computers
+  
+  desc:Have <b>100</b> Itanium processors. (Currently: <b>[IA-64]</b>)<//><t><i><#FFFF00>Minimum achievements earnt: </#> [minimum]</i></t>
+  
+  req:100 IA-64
+  
+  icon:icons[3,0] icons[5,1]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 minimum
+  
+ *IAM5
+ 
+  name:Mommy, Why is There a Server in the House?
+  
+  desc:Have <b>200</b> Itanium processors. (Currently: <b>[IA-64]</b>)<//><t><i><#FFFF00>Entry achievements earnt: </#> [entry]</i></t>
+  
+  req:200 IA-64
+  
+  icon:icons[4,0] icons[5,1]
   
   on earn:yield 1 ach
   on earn:yield 1 entry
