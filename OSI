@@ -4,7 +4,7 @@ Desc: Placeholder graphics by Eric, the Grandma Clicker series developer<//> Spy
 by:Qavs
 Created: 17/03/2022
 Updated: 29/10/2022
-Version: 25
+Version: 26
  
 Settings
 
@@ -1710,7 +1710,7 @@ Achievements
  
   name:I am the one
   
-  desc:Have <b>1</b> Itanium processor. (Currently: <b>[IA-64]</b>)<//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
+  desc:Have <b>1</b> Itanium processor. (Currently: <b>[IA64]</b>)<//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
   
   req:1 IA64
   
@@ -1723,7 +1723,7 @@ Achievements
  
   name:Still known as Intel 64
   
-  desc:Have <b>10</b> Itanium processors. (Currently: <b>[IA-64]</b>)<//><t><i><#E60000>Destitute achievements earnt: </#> [destitute]</i></t>
+  desc:Have <b>10</b> Itanium processors. (Currently: <b>[IA64]</b>)<//><t><i><#E60000>Destitute achievements earnt: </#> [destitute]</i></t>
   
   req:10 IA64
   
@@ -1736,7 +1736,7 @@ Achievements
  
   name:This for servers?
   
-  desc:Have <b>50</b> Itanium processors. (Currently: <b>[IA-64]</b>)<//><t><i><#FF9500>Decent achievements earnt: </#> [decent]</i></t>
+  desc:Have <b>50</b> Itanium processors. (Currently: <b>[IA64]</b>)<//><t><i><#FF9500>Decent achievements earnt: </#> [decent]</i></t>
   
   req:50 IA64
   
@@ -1749,7 +1749,7 @@ Achievements
  
   name:Microsoft Windows for Server Computers
   
-  desc:Have <b>100</b> Itanium processors. (Currently: <b>[IA-64]</b>)<//><t><i><#FFFF00>Minimum achievements earnt: </#> [minimum]</i></t>
+  desc:Have <b>100</b> Itanium processors. (Currently: <b>[IA64]</b>)<//><t><i><#FFFF00>Minimum achievements earnt: </#> [minimum]</i></t>
   
   req:100 IA64
   
@@ -1762,7 +1762,7 @@ Achievements
  
   name:Mommy, Why is There a Server in the House?
   
-  desc:Have <b>200</b> Itanium processors. (Currently: <b>[IA-64]</b>)<//><t><i><#FFFF00>Entry achievements earnt: </#> [entry]</i></t>
+  desc:Have <b>200</b> Itanium processors. (Currently: <b>[IA64]</b>)<//><t><i><#FFFF00>Entry achievements earnt: </#> [entry]</i></t>
   
   req:200 IA64
   
