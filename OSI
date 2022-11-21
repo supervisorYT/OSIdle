@@ -530,7 +530,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[4,3] icons[0,2]
+  Icon:icons[4,3] icons[0,2] icons[2,14]
   
  *486OS4
 
@@ -690,7 +690,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[4,3] icons[5,2]
+  Icon:icons[4,3] icons[5,2] icons[2,14]
   
  *586OS6
 
@@ -706,7 +706,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:
+  Icon:icons[1,14]
   
  *586OS7
 
@@ -850,7 +850,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:
+  Icon:icons[50,50]
   
  *686OS8
 
@@ -866,7 +866,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:
+  Icon:icons[50,50]
   
  *64OS1
 
@@ -962,7 +962,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:
+  Icon:icons[50,50]
   
  *64OS7
 
@@ -1042,7 +1042,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:
+  Icon:icons[50,50]
   
  *IAOS4
 
@@ -1058,7 +1058,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:
+  Icon:icons[0,13]
   
  *IAOS5
 
