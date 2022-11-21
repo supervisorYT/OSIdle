@@ -29,7 +29,7 @@ Buttons
 
   class:bigButton
 
-  Icon:pixpi256.png
+  Icon:pixpi256
 
   tooltip origin:bottom
   tooltip class:red
