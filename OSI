@@ -29,7 +29,7 @@ Buttons
 
   class:bigButton
 
-  Icon:https://i.imgur.com/1WIFxhd.png
+  Icon:pixpi256.png
 
   tooltip origin:bottom
   tooltip class:red
