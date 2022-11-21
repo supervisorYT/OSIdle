@@ -4,7 +4,7 @@ Desc: Placeholder graphics by Eric, the Grandma Clicker series developer<//> Spy
 by:Qavs
 Created: 17/03/2022
 Updated: 21/11/2022
-Version: 29
+Version: 30
  
 Settings
 
@@ -1108,7 +1108,7 @@ Upgrades
 
   Icon:icons[4,3] icons[0,2] icons[5,12]
   
- *IAOS8 icons[2,12]
+ *IAOS8
 
   name:Windows Embedded Industry
 
