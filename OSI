@@ -29,7 +29,7 @@ Buttons
 
   class:bigButton
 
-  Icon:pixpi256
+  Icon:https://raw.githubusercontent.com/supervisorYT/OSIdle/main/pixpi256.png
 
   tooltip origin:bottom
   tooltip class:red
