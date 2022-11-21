@@ -4,7 +4,7 @@ Desc: Spyonclear project Code Name OSIdle. <//><t><i><#D1D17A>Poor achievements 
 by:Qavs
 Created: 17/03/2022
 Updated: 21/11/2022
-Version: 35
+Version: 36
  
 Settings
 
@@ -1010,7 +1010,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[22,3] icons[20,2] icons[10,2] icons[3,2] icons[2,12]
+  Icon:icons[22,3] icons[20,2] icons[10,2] icons[3,2] icons[5,12]
 
  *IAOS2
 
@@ -1026,7 +1026,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[22,3] icons[20,2] icons[10,2] icons[3,2] icons[2,12]
+  Icon:icons[22,3] icons[20,2] icons[10,2] icons[3,2] icons[5,12]
   
  *IAOS3
 
