@@ -1,10 +1,10 @@
 Let's make a game!
-Name: Spyonclear Code Name OSIdle A20 Godafest
+Name: Spyonclear Code Name OSIdle A22 Vodeno
 Desc: Spyonclear project Code Name OSIdle. <//><t><i><#D1D17A>Poor achievements earnt: </#> [poor]</i></t> <//><t><i><#D1D17A>Destitute achievements earnt: </#> [destitute]</i></t> <//><t><i><#D1D17A>Decent achievements earnt: </#> [decent]</i></t> <//><t><i><#D1D17A>Minimum achievements earnt: </#> [minimum]</i></t>
 by:Qavs
 Created: 17/03/2022
 Updated: 21/11/2022
-Version: 31
+Version: 35
  
 Settings
 
@@ -1433,7 +1433,7 @@ Achievements
 
  *OSM1
  
-  name:OS Mockups
+  name:OS Concepts
   
   desc:Have <b>1</b> operating system. (Currently: <b>[os]</b>)<//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
   
@@ -1474,7 +1474,7 @@ Achievements
  
   name:One simple step
   
-  desc:Have <b>1</b> operating system. (Currently: <b>[upg]</b>)<//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
+  desc:Have <b>1</b> non-OS upgrades. (Currently: <b>[upg]</b>)<//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
   
   req:1 upg
   
@@ -1487,7 +1487,7 @@ Achievements
  
   name:More To-Do's
   
-  desc:Have <b>5</b> operating system. (Currently: <b>[upg]</b>)<//><t><i><#E60000>Destitute achievements earnt: </#> [destitute]</i></t>
+  desc:Have <b>5</b> non-OS upgrades. (Currently: <b>[upg]</b>)<//><t><i><#E60000>Destitute achievements earnt: </#> [destitute]</i></t>
   
   req:5 upg
   
@@ -1500,7 +1500,7 @@ Achievements
  
   name:Upgollector
   
-  desc:Have <b>10</b> operating system. (Currently: <b>[upg]</b>)<//><t><i><#FF9500>Decent achievements earnt: </#> [decent]</i></t>
+  desc:Have <b>10</b> non-OS upgrades. (Currently: <b>[upg]</b>)<//><t><i><#FF9500>Decent achievements earnt: </#> [decent]</i></t>
   
   req:10 upg
   
