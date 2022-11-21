@@ -466,7 +466,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[13,3] icons[11,2] icons[2,12]
+  Icon:icons[3,3] icons[1,2] icons[2,12]
   
  *386OS8
 
@@ -482,7 +482,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[13,3] icons[11,2]
+  Icon:
   
   *486OS1
 
