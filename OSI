@@ -1,10 +1,10 @@
 Let's make a game!
-Name: OSI A16 Faz
+Name: OSI A19 Xarcho
 Desc: Placeholder graphics by Eric, the Grandma Clicker series developer<//> Spyonclear project Code Name OSIdle. <//><t><i><#D1D17A>Poor achievements earnt: </#> [poor]</i></t> <//><t><i><#D1D17A>Destitute achievements earnt: </#> [destitute]</i></t> <//><t><i><#D1D17A>Decent achievements earnt: </#> [decent]</i></t> <//><t><i><#D1D17A>Minimum achievements earnt: </#> [minimum]</i></t>
 by:Qavs
 Created: 17/03/2022
 Updated: 21/11/2022
-Version: 27
+Version: 29
  
 Settings
 
@@ -370,7 +370,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[2,3] icons[0,2]
+  Icon:icons[2,3] icons[0,2] icons[0,12]
 
  *386OS2
 
@@ -386,7 +386,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[2,3] icons[1,2]
+  Icon:icons[2,3] icons[1,2] icons[0,12]
   
  *386OS3
 
@@ -402,7 +402,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[12,3] icons[11,2] icons[1,2]
+  Icon:icons[12,3] icons[11,2] icons[1,2] icons[0,12]
   
  *386OS4
 
@@ -418,7 +418,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[3,3] icons[0,2]
+  Icon:icons[3,3] icons[0,2] icons[1,12]
   
  *386OS5
 
@@ -434,7 +434,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[3,3] icons[1,2]
+  Icon:icons[3,3] icons[1,2] icons[2,12]
   
  *386OS6
 
@@ -450,7 +450,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[13,3] icons[11,2] icons[1,2]
+  Icon:icons[13,3] icons[11,2] icons[1,2] icons[2,12]
   
  *386OS7
 
@@ -466,7 +466,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[13,3] icons[11,2]
+  Icon:icons[13,3] icons[11,2] icons[2,12]
   
  *386OS8
 
@@ -498,7 +498,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[9,3] icons[5,2]
+  Icon:icons[9,3] icons[5,2] icons[2,12]
 
  *486OS2
 
@@ -514,7 +514,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[9,3] icons[6,2]
+  Icon:icons[9,3] icons[6,2] icons[2,12]
   
  *486OS3
 
@@ -562,7 +562,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[3,3] icons[1,2]
+  Icon:icons[3,3] icons[1,2] icons[2,12]
   
  *486OS6
 
@@ -578,7 +578,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[13,3] icons[11,2] icons[1,2]
+  Icon:icons[13,3] icons[11,2] icons[1,2] icons[2,12]
   
  *486OS7
 
@@ -594,7 +594,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:
+  Icon: icons[12,12]
   
  *486OS8
 
@@ -626,7 +626,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[9,3] icons[5,2]
+  Icon:icons[9,3] icons[5,2] icons[2,12]
 
  *586OS2
 
@@ -642,7 +642,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:
+  Icon: icons[2,13]
   
  *586OS3
 
@@ -658,7 +658,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:
+  Icon: icons[0,13]
   
  *586OS4
 
@@ -674,7 +674,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:
+  Icon: icons[2,12]
   
  *586OS5
 
@@ -722,7 +722,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[4,3] icons[0,2]
+  Icon:icons[4,3] icons[0,2] icons[12,12]
   
  *586OS8
 
@@ -738,7 +738,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[4,3] icons[0,2]
+  Icon:icons[4,3] icons[0,2] icons[2,12]
   
  *686OS1
 
@@ -754,7 +754,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[9,3] icons[8,2]
+  Icon:icons[9,3] icons[8,2] icons[2,12]
 
  *686OS2
 
@@ -770,7 +770,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[9,3] icons[8,2]
+  Icon:icons[9,3] icons[8,2] icons[2,12]
   
  *686OS3
 
@@ -786,7 +786,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:
+  Icon: icons[4,12]
   
  *686OS4
 
@@ -802,7 +802,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[21,3] icons[20,2] icons[10,2] icons[0,2]
+  Icon:icons[21,3] icons[20,2] icons[10,2] icons[0,2] icons[3,12]
   
  *686OS5
 
@@ -818,7 +818,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:
+  Icon: icons[5,12]
   
  *686OS6
 
@@ -882,7 +882,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[6,2]
+  Icon:icons[8,12]
 
  *64OS2
 
@@ -898,7 +898,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:
+  Icon: icons[6,13]
   
  *64OS3
 
@@ -914,7 +914,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:
+  Icon: icons[7,12]
   
  *64OS4
 
@@ -994,7 +994,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[7,2]
+  Icon:icons[7,2] icons[8,12]
   
  *IAOS1
 
@@ -1010,7 +1010,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[22,3] icons[20,2] icons[10,2] icons[3,2]
+  Icon:icons[22,3] icons[20,2] icons[10,2] icons[3,2] icons[2,12]
 
  *IAOS2
 
@@ -1026,7 +1026,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[22,3] icons[20,2] icons[10,2] icons[3,2]
+  Icon:icons[22,3] icons[20,2] icons[10,2] icons[3,2] icons[2,12]
   
  *IAOS3
 
@@ -1074,7 +1074,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[4,3] icons[5,2]
+  Icon:icons[4,3] icons[5,2] icons[8,12]
   
  *IAOS6
 
@@ -1090,7 +1090,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:
+  Icon: icons[5,12]
   
  *IAOS7
 
@@ -1106,9 +1106,9 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[4,3] icons[0,2]
+  Icon:icons[4,3] icons[0,2] icons[5,12]
   
- *IAOS8
+ *IAOS8 icons[2,12]
 
   name:Windows Embedded Industry
 
@@ -1122,7 +1122,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[4,3] icons[0,2]
+  Icon:icons[9,12]
   
  *click1
 
