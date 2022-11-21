@@ -482,7 +482,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:
+  Icon:icons[7,13]
   
   *486OS1
 
@@ -610,7 +610,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:
+  Icon:icons[9,13]
     
   *586OS1
 
@@ -834,7 +834,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:
+  Icon:icons[3,14]
   
  *686OS7
 
@@ -898,7 +898,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon: icons[6,13]
+  Icon:icons[6,13]
   
  *64OS3
 
@@ -930,7 +930,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:
+  Icon:icons[4,15]
   
  *64OS5
 
@@ -946,7 +946,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:
+  Icon:icons[5,15]
   
  *64OS6
 
@@ -978,7 +978,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:
+  Icon:icons[11,15]
   
  *64OS8
 
@@ -1439,7 +1439,7 @@ Achievements
   
   req:1 os
   
-  icon:icons[0,0]
+  icon:icons[0,0] icons[50,50]
   
   on earn:yield 1 ach
   on earn:yield 1 poor
@@ -1452,7 +1452,7 @@ Achievements
   
   req:5 os
   
-  icon:icons[1,0]
+  icon:icons[1,0] icons[50,50]
   
   on earn:yield 1 ach
   on earn:yield 1 destitute
@@ -1465,7 +1465,7 @@ Achievements
   
   req:10 os
   
-  icon:icons[2,0]
+  icon:icons[2,0] icons[50,50]
   
   on earn:yield 1 ach
   on earn:yield 1 decent
@@ -1478,7 +1478,7 @@ Achievements
   
   req:1 upg
   
-  icon:icons[0,0]
+  icon:icons[0,0] icons[50,50]
   
   on earn:yield 1 ach
   on earn:yield 1 poor
@@ -1491,7 +1491,7 @@ Achievements
   
   req:5 upg
   
-  icon:icons[1,0]
+  icon:icons[1,0] icons[50,50]
   
   on earn:yield 1 ach
   on earn:yield 1 destitute
@@ -1504,7 +1504,7 @@ Achievements
   
   req:10 upg
   
-  icon:icons[2,0]
+  icon:icons[2,0] icons[50,50]
   
   on earn:yield 1 ach
   on earn:yield 1 decent
