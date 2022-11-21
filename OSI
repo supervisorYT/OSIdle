@@ -1,10 +1,10 @@
 Let's make a game!
-Name: OSI A16 Preview
+Name: OSI A16 Faz
 Desc: Placeholder graphics by Eric, the Grandma Clicker series developer<//> Spyonclear project Code Name OSIdle. <//><t><i><#D1D17A>Poor achievements earnt: </#> [poor]</i></t> <//><t><i><#D1D17A>Destitute achievements earnt: </#> [destitute]</i></t> <//><t><i><#D1D17A>Decent achievements earnt: </#> [decent]</i></t> <//><t><i><#D1D17A>Minimum achievements earnt: </#> [minimum]</i></t>
 by:Qavs
 Created: 17/03/2022
-Updated: 29/10/2022
-Version: 26
+Updated: 21/11/2022
+Version: 27
  
 Settings
 
@@ -818,7 +818,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[4,3] icons[5,2]
+  Icon:
   
  *686OS6
 
@@ -850,7 +850,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[4,3] icons[0,2]
+  Icon:
   
  *686OS8
 
@@ -866,7 +866,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[4,3] icons[0,2]
+  Icon:
   
  *64OS1
 
@@ -882,7 +882,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[9,3] icons[8,2]
+  Icon:icons[6,2]
 
  *64OS2
 
@@ -898,7 +898,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[9,3] icons[8,2]
+  Icon:
   
  *64OS3
 
@@ -930,7 +930,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[21,3] icons[20,2] icons[10,2] icons[0,2]
+  Icon:
   
  *64OS5
 
@@ -946,7 +946,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[4,3] icons[5,2]
+  Icon:
   
  *64OS6
 
@@ -978,7 +978,7 @@ Upgrades
   
   on earn:yield 1 os
 
-  Icon:icons[4,3] icons[0,2]
+  Icon:
   
  *64OS8
 
@@ -991,6 +991,134 @@ Upgrades
   passive:multiply yield of x64 by 2
 
   req:200 x64
+  
+  on earn:yield 1 os
+
+  Icon:icons[7,2]
+  
+ *IAOS1
+
+  name:Windows Server 2003
+
+  desc:Powering Itanium with increased X1.4 perfomance
+
+  cost:5.7e9 flop
+
+  passive:multiply yield of IA64 by 1.4
+
+  req:1 IA64
+  
+  on earn:yield 1 os
+
+  Icon:icons[22,3] icons[20,2] icons[10,2] icons[3,2]
+
+ *IAOS2
+
+  name:Windows Server 2003 R2
+
+  desc:Powering Itanium with increased X1.4 perfomance
+
+  cost:1e12 flop
+
+  passive:multiply yield of IA64 by 1.4
+
+  req:15 IA64
+  
+  on earn:yield 1 os
+
+  Icon:icons[22,3] icons[20,2] icons[10,2] icons[3,2]
+  
+ *IAOS3
+
+  name:CentOS
+
+  desc:Powering Itanium with increased X1.4 perfomance
+
+  cost:8e12 flop
+
+  passive:multiply yield of IA64 by 1.4
+
+  req:35 IA64
+  
+  on earn:yield 1 os
+
+  Icon:
+  
+ *IAOS4
+
+  name:Red Hat Linux
+
+  desc:Powering Itanium with increased X1.6 perfomance
+
+  cost:2e13 flop
+
+  passive:multiply yield of IA64 by 1.6
+
+  req:60 IA64
+  
+  on earn:yield 1 os
+
+  Icon:
+  
+ *IAOS5
+
+  name:Windows Home Server
+
+  desc:Powering Itanium with increased X1.7 perfomance
+
+  cost:1e15 flop
+
+  passive:multiply yield of IA64 by 1.7
+
+  req:95 IA64
+  
+  on earn:yield 1 os
+
+  Icon:icons[4,3] icons[5,2]
+  
+ *IAOS6
+
+  name:Windows Storage Server
+
+  desc:Powering Itanium with increased X1.8 perfomance
+
+  cost:6.59e16 flop
+
+  passive:multiply yield of IA64 by 1.8
+
+  req:120 IA64
+  
+  on earn:yield 1 os
+
+  Icon:
+  
+ *IAOS7
+
+  name:Windows Small Business Server
+
+  desc:Powering Itanium with increased X2 perfomance
+
+  cost:9.22337e18 flop
+
+  passive:multiply yield of IA64 by 2
+
+  req:150 IA64
+  
+  on earn:yield 1 os
+
+  Icon:icons[4,3] icons[0,2]
+  
+ *IAOS8
+
+  name:Windows Embedded Industry
+
+  desc:Powering Itanium with increased X2 perfomance
+
+  cost:8e19 flop
+
+  passive:multiply yield of IA64 by 2
+
+  req:200 IA64
   
   on earn:yield 1 os
 
