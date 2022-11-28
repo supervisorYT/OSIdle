@@ -1220,6 +1220,85 @@ Upgrades
 
   Icon:icons[1,6] icons[1,5] icons[2,4]
   
+ *achb1
+
+  name:Xtra
+
+  desc:Increace your performance by 1% per an achievement
+
+  cost:3.35e11 flop
+
+  passive:multiply flop yield of tag:microprocessor by (1+0.01*boost)
+
+  req:20 ach
+  
+  on earn:yield 1 upg
+
+  Icon:icons[5,2] icons[4,3]
+  
+ *achb2
+
+  name:Exctract every milestones
+
+  desc:Increace your performance by 0,1% per an achievement
+
+  cost:3.35e18 flop
+
+  passive:multiply flop yield of tag:microprocessor by (1+0.001*ach)
+
+  req:50 ach
+  
+  on earn:yield 1 upg
+
+  Icon:icons[5,2] icons[4,3]
+  
+ *achpoor1
+
+  name:Collapsed medal
+
+  desc:Increace your performance by 2% per poor-tier achievement
+
+  cost:1.5e13 flop
+
+  passive:multiply flop yield of tag:microprocessor by (1+0.02*poor)
+
+  req:10 poor
+  
+  on earn:yield 1 upg
+
+  Icon:icons[0,0] icons[5,2] icons[4,3]
+  
+ *achdestitute1
+
+  name:Decent is a new destitute
+
+  desc:Increace your performance by 2% per destitute achievement
+
+  cost:5.8e14 flop
+
+  passive:multiply flop yield of tag:microprocessor by (1+0.02*destitute)
+
+  req:10 destitute
+  
+  on earn:yield 1 upg
+
+  Icon:icons[1,0] icons[5,2] icons[4,3]
+  
+ *achdecent1
+
+  name:Did required you to stay after all
+
+  desc:Increace your performance by 2% per decent achievement
+
+  cost:8.5e16 flop
+
+  passive:multiply flop yield of tag:microprocessor by (1+0.02*decent)
+
+  req:10 decent
+  
+  on earn:yield 1 upg
+
+  Icon:icons[2,0] icons[5,2] icons[4,3]
   
 Achievements
 
