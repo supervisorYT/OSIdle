@@ -1,10 +1,10 @@
 Let's make a game!
-Name: Spyonclear Code Name OSIdle A23 Wu
+Name: Spyonclear Code Name OSIdle A26 Classic
 Desc: The code name's OSIdle, and it's another Spyonclear's project.
 by:Qavs
 Created: 17/03/2022
 Updated: 27/11/2022
-Version: 40
+Version: 44
  
 Settings
 
@@ -2054,6 +2054,71 @@ Achievements
   req:200 IA64
   
   icon:icons[4,0] icons[5,1]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 entry
+    
+ *AMD64M1
+ 
+  name:You have been joined the Red team
+  
+  desc:Have <b>1</b> AMD64 processor. (Currently: <b>[AMD64]</b>)<//><t><i><#C49814>Poor achievements obtained: </#> [poor]</i></t>
+  
+  req:1 AMD64
+  
+  icon:icons[0,0] icons[6,1]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 poor
+  
+ *AMD64M2
+ 
+  name:Green Legacy
+  
+  desc:Have <b>10</b> AMD64 processors. (Currently: <b>[AMD64]</b>)<//><t><i><#E60000>Destitute achievements obtained: </#> [destitute]</i></t>
+  
+  req:10 AMD64
+  
+  icon:icons[1,0] icons[6,1]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 destitute
+  
+ *AMD64M3
+ 
+  name:Spyonclear owns AMD Ryzen 5 5600G
+  
+  desc:Have <b>50</b> AMD64 processors. (Currently: <b>[AMD64]</b>)<//><t><i><#FF9500>Decent achievements obtained: </#> [decent]</i></t>
+  
+  req:50 AMD64
+  
+  icon:icons[2,0] icons[6,1]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 decent
+  
+ *AMD64M4
+ 
+  name:More specifically - with Radeon Graphics
+  
+  desc:Have <b>100</b> AMD64 processors. (Currently: <b>[AMD64]</b>)<//><t><i><#FFFF00>Minimum achievements obtained: </#> [minimum]</i></t>
+  
+  req:100 AMD64
+  
+  icon:icons[3,0] icons[6,1]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 minimum
+  
+ *AMD64M5
+ 
+  name:Reds VS Blues
+  
+  desc:Have <b>200</b> AMD64 processors. (Currently: <b>[AMD64]</b>)<//><t><i><#FFFF00>Entry achievements obtained: </#> [entry]</i></t>
+  
+  req:200 AMD64
+  
+  icon:icons[4,0] icons[6,1]
   
   on earn:yield 1 ach
   on earn:yield 1 entry
