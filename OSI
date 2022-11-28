@@ -1234,7 +1234,7 @@ Upgrades
   
   on earn:yield 1 upg
 
-  Icon:icons[5,2] icons[4,3]
+  Icon:icons[2,5] icons[3,4]
   
  *achb2
 
@@ -1250,7 +1250,7 @@ Upgrades
   
   on earn:yield 1 upg
 
-  Icon:icons[5,2] icons[4,3]
+  Icon:icons[2,5] icons[3,4]
   
  *achpoor1
 
@@ -1266,7 +1266,7 @@ Upgrades
   
   on earn:yield 1 upg
 
-  Icon:icons[0,0] icons[5,2] icons[4,3]
+  Icon:icons[0,0] icons[2,5] icons[3,4]
   
  *achdestitute1
 
@@ -1282,7 +1282,7 @@ Upgrades
   
   on earn:yield 1 upg
 
-  Icon:icons[1,0] icons[5,2] icons[4,3]
+  Icon:icons[1,0] icons[2,5] icons[3,4]
   
  *achdecent1
 
@@ -1298,7 +1298,39 @@ Upgrades
   
   on earn:yield 1 upg
 
-  Icon:icons[2,0] icons[5,2] icons[4,3]
+  Icon:icons[2,0] icons[2,5] icons[3,4]
+  
+ *achminimum1
+
+  name:Actually why not buff after every trivial achievements you have?
+
+  desc:Increace your performance by 2% per minimum achievement
+
+  cost:2.1e18 flop
+
+  passive:multiply flop yield of tag:microprocessor by (1+0.02*minimum)
+
+  req:10 minimum
+  
+  on earn:yield 1 upg
+
+  Icon:icons[3,0] icons[2,5] icons[3,4]
+  
+ *achentry1
+
+  name:It's a wood. Deal with it.
+
+  desc:Increace your performance by 2% per entry achievement
+
+  cost:8.5e20 flop
+
+  passive:multiply flop yield of tag:microprocessor by (1+0.02*entry)
+
+  req:10 entry
+  
+  on earn:yield 1 upg
+
+  Icon:icons[4,0] icons[2,5] icons[3,4]
   
 Achievements
 
