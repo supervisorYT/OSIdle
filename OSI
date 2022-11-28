@@ -342,13 +342,29 @@ Buildings
 
   name:Itanium
 
-  desc:Itanium wasn't just for you. Intel Itanium architecture was previously called IA-64 Makes 280 000 units of perfomance currency
+  desc:Itanium wasn't just for you. Intel Itanium architecture was previously called IA-64 Makes. 5 millions units of perfomance currency
 
   cost:6.8e9 flop
 
   Icon:icons[5,1]
   
   on tick:yield 5000000 flop
+  
+  tag:microprocessor
+
+  show max
+  
+ *AMD64
+
+  name:AMD64
+
+  desc:AMD made their own 64bit ecosystem. Judging to this game putting AMD64 above Itanium, it is superior. 30 millions units of perfomance currency
+
+  cost:4.5e12 flop
+
+  Icon:icons[6,1]
+  
+  on tick:yield 30000000 flop
   
   tag:microprocessor
 
@@ -1331,6 +1347,38 @@ Upgrades
   on earn:yield 1 upg
 
   Icon:icons[4,0] icons[2,5] icons[3,4]
+  
+ *achmodest1
+
+  name:Above modest
+
+  desc:Increace your performance by 2% per modest achievement
+
+  cost:9.7e21 flop
+
+  passive:multiply flop yield of tag:microprocessor by (1+0.02*modest)
+
+  req:10 modest
+  
+  on earn:yield 1 upg
+
+  Icon:icons[5,0] icons[2,5] icons[3,4]
+  
+ *achfair1
+
+  name:Satisfaction
+
+  desc:Increace your performance by 2% per fair achievement
+
+  cost:5e23 flop
+
+  passive:multiply flop yield of tag:microprocessor by (1+0.02*fair)
+
+  req:10 fair
+  
+  on earn:yield 1 upg
+
+  Icon:icons[6,0] icons[2,5] icons[3,4]
   
 Achievements
 
