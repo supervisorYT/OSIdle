@@ -1,10 +1,10 @@
 Let's make a game!
-Name: Spyonclear Code Name OSIdle A22 Vodeno
+Name: Spyonclear Code Name OSIdle A23 Wu
 Desc: The code name's OSIdle, and it's another Spyonclear's project.
 by:Qavs
 Created: 17/03/2022
 Updated: 27/11/2022
-Version: 37
+Version: 40
  
 Settings
 
@@ -23,7 +23,7 @@ Buttons
 
   name:The Booster
 
-  desc:B
+  desc:My man rips his mouse/touchpad or uses the autoclicker just for this💀💀💀
 
   on click:yield 1 boost
 
