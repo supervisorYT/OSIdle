@@ -1228,7 +1228,7 @@ Upgrades
 
   cost:3.35e11 flop
 
-  passive:multiply flop yield of tag:microprocessor by (1+0.01*boost)
+  passive:multiply flop yield of tag:microprocessor by (1+0.01*ach)
 
   req:20 ach
   
