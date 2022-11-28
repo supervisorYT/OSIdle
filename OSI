@@ -1,6 +1,6 @@
 Let's make a game!
 Name: Spyonclear Code Name OSIdle A22 Vodeno
-Desc: Spyonclear project Code Name OSIdle. <//><t><i><#D1D17A>Poor achievements earnt: </#> [poor]</i></t> <//><t><i><#D1D17A>Destitute achievements earnt: </#> [destitute]</i></t> <//><t><i><#D1D17A>Decent achievements earnt: </#> [decent]</i></t> <//><t><i><#D1D17A>Minimum achievements earnt: </#> [minimum]</i></t>
+Desc: The code name's OSIdle, and it's another Spyonclear's project.
 by:Qavs
 Created: 17/03/2022
 Updated: 27/11/2022
@@ -41,7 +41,7 @@ Resources
 
   name:Boost Clicks
 
-  desc:It may not affect on early game, however it would be must-need resource mid-game!
+  desc:It may have no effect on early game, but it would do have it later on!
 
   Icon:icons[2,4]
 
@@ -49,7 +49,7 @@ Resources
 
   name:Perfomance Currency
 
-  desc:The power of FLOPs, bangwidth, and system stats shows it's pride. Effectively, it's transformed to the currency. Do the Personal Computing.
+  desc:The power of FLOPs, bangwidth, system stats showing it's pride, you name it. Effectively, it's transformed to the currency. Do the Personal Computing.
   
   start with:1
 
@@ -1227,7 +1227,7 @@ Achievements
  
   name:First try
   
-  desc:Have <b>1 unit</b> of perfomance currency. (Currently: <b>[flop:earned]</b>)<//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
+  desc:Have <b>1 unit</b> of perfomance currency. (Currently: <b>[flop:earned]</b>)<//><t><i><#C49814>Poor achievements obtained: </#> [poor]</i></t>
   
   req:1 flop:earned
   
@@ -1240,7 +1240,7 @@ Achievements
  
   name:Just before the action
   
-  desc:Have <b>100 units</b> of perfomance currency. (Currently: <b>[flop:earned]</b>)<//><t><i><#E60000>Destitute achievements earnt: </#> [destitute]</i></t>
+  desc:Have <b>100 units</b> of perfomance currency. (Currently: <b>[flop:earned]</b>)<//><t><i><#E60000>Destitute achievements obtained: </#> [destitute]</i></t>
   
   req:100 flop:earned
   
@@ -1253,7 +1253,7 @@ Achievements
  
   name:Enjoy our nice work ;)
   
-  desc:Have <b>1 thousand</b> of perfomance currency. (Currently: <b>[flop:earned]</b>)<//><t><i><#FF9500>Decent achievements earnt: </#> [decent]</i></t>
+  desc:Have <b>1 thousand</b> of perfomance currency. (Currently: <b>[flop:earned]</b>)<//><t><i><#FF9500>Decent achievements obtained: </#> [decent]</i></t>
   
   req:1000 flop:earned
   
@@ -1266,7 +1266,7 @@ Achievements
  
   name:The source of Perfomance
   
-  desc:Have <b>100 thousands</b> of perfomance currency. (Currently: <b>[flop:earned]</b>)<//><t><i><#FFFF00>Minimum achievements earnt: </#> [minimum]</i></t>
+  desc:Have <b>100 thousands</b> of perfomance currency. (Currently: <b>[flop:earned]</b>)<//><t><i><#FFFF00>Minimum achievements obtained: </#> [minimum]</i></t>
   
   req:100000 flop:earned
   
@@ -1279,7 +1279,7 @@ Achievements
  
   name:Giving the power
   
-  desc:Have <b>1 million</b> of perfomance currency. (Currently: <b>[flop:earned]</b>)<//><t><i><#BBBBBB>Entry achievements earnt: </#> [entry]</i></t>
+  desc:Have <b>1 million</b> of perfomance currency. (Currently: <b>[flop:earned]</b>)<//><t><i><#BBBBBB>Entry achievements obtained: </#> [entry]</i></t>
   
   req:1e6 flop:earned
   
@@ -1292,7 +1292,7 @@ Achievements
  
   name:Get a good speed
   
-  desc:Have <b>100 millions</b> of perfomance currency. (Currently: <b>[flop:earned]</b>)<//><t><i><#BBBBBB>Modest achievements earnt: </#> [modest]</i></t>
+  desc:Have <b>100 millions</b> of perfomance currency. (Currently: <b>[flop:earned]</b>)<//><t><i><#BBBBBB>Modest achievements obtained: </#> [modest]</i></t>
   
   req:1e8 flop:earned
   
@@ -1305,7 +1305,7 @@ Achievements
  
   name:Finding a way to get as much operating systems as possible within my limits
   
-  desc:Have <b>10 billions</b> of perfomance currency. (Currently: <b>[flop:earned]</b>)<//><t><i><#FFFFFF>Fair achievements earnt: </#> [fair]</i></t>
+  desc:Have <b>10 billions</b> of perfomance currency. (Currently: <b>[flop:earned]</b>)<//><t><i><#FFFFFF>Fair achievements obtained: </#> [fair]</i></t>
   
   req:1e10 flop:earned
   
@@ -1318,7 +1318,7 @@ Achievements
  
   name:A decent PC
   
-  desc:Have <b>1 trillion</b> of perfomance currency. (Currently: <b>[flop:earned]</b>)<//><t><i><#6EDB00>Fine achievements earnt: </#> [fine]</i></t>
+  desc:Have <b>1 trillion</b> of perfomance currency. (Currently: <b>[flop:earned]</b>)<//><t><i><#6EDB00>Fine achievements obtained: </#> [fine]</i></t>
   
   req:1e12 flop:earned
   
@@ -1331,7 +1331,7 @@ Achievements
  
   name:Permanent source
   
-  desc:Have <b>10 unit</b> of perfomance per second. (Currently: <b>[flop:ps]</b>)<//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
+  desc:Have <b>10 unit</b> of perfomance per second. (Currently: <b>[flop:ps]</b>)<//><t><i><#C49814>Poor achievements obtained: </#> [poor]</i></t>
   
   req:flop:ps>=10
   
@@ -1344,7 +1344,7 @@ Achievements
  
   name:Run throught
   
-  desc:Have <b>1 thousand</b> of perfomance per second. (Currently: <b>[flop:ps]</b>)<//><t><i><#E60000>Destitute achievements earnt: </#> [destitute]</i></t>
+  desc:Have <b>1 thousand</b> of perfomance per second. (Currently: <b>[flop:ps]</b>)<//><t><i><#E60000>Destitute achievements obtained: </#> [destitute]</i></t>
   
   req:flop:ps>=1000
   
@@ -1357,7 +1357,7 @@ Achievements
  
   name:Real-time calculation
   
-  desc:Have <b>10 thousand</b> of perfomance per second. (Currently: <b>[flop:ps]</b>)<//><t><i><#FF9500>Decent achievements earnt: </#> [decent]</i></t>
+  desc:Have <b>10 thousand</b> of perfomance per second. (Currently: <b>[flop:ps]</b>)<//><t><i><#FF9500>Decent achievements obtained: </#> [decent]</i></t>
   
   req:flop:ps>=10000
   
@@ -1370,7 +1370,7 @@ Achievements
  
   name:Great calculation
   
-  desc:Have <b>1 million</b> of perfomance per second. (Currently: <b>[flop:ps]</b>)<//><t><i><#FFFF00>Minimum achievements earnt: </#> [minimum]</i></t>
+  desc:Have <b>1 million</b> of perfomance per second. (Currently: <b>[flop:ps]</b>)<//><t><i><#FFFF00>Minimum achievements obtained: </#> [minimum]</i></t>
   
   req:flop:ps>=1e6
   
@@ -1383,7 +1383,7 @@ Achievements
  
   name:DOOM MF
   
-  desc:Have <b>10 million</b> of perfomance per second. (Currently: <b>[flop:ps]</b>)<//><t><i><#BBBBBB>Entry achievements earnt: </#> [entry]</i></t>
+  desc:Have <b>10 million</b> of perfomance per second. (Currently: <b>[flop:ps]</b>)<//><t><i><#BBBBBB>Entry achievements obtained: </#> [entry]</i></t>
   
   req:flop:ps>=1e7
   
@@ -1396,7 +1396,7 @@ Achievements
  
   name:Playstation 2
   
-  desc:Have <b>1 billion</b> of perfomance per second. (Currently: <b>[flop:ps]</b>)<//><t><i><#BBBBBB>Modest achievements earnt: </#> [modest]</i></t>
+  desc:Have <b>1 billion</b> of perfomance per second. (Currently: <b>[flop:ps]</b>)<//><t><i><#BBBBBB>Modest achievements obtained: </#> [modest]</i></t>
   
   req:flop:ps>=1e9
   
@@ -1409,7 +1409,7 @@ Achievements
  
   name:Microsoft Xbox
   
-  desc:Have <b>10 billions</b> of perfomance per second. (Currently: <b>[flop:ps]</b>)<//><t><i><#FFFFFF>Fair achievements earnt: </#> [fair]</i></t>
+  desc:Have <b>10 billions</b> of perfomance per second. (Currently: <b>[flop:ps]</b>)<//><t><i><#FFFFFF>Fair achievements obtained: </#> [fair]</i></t>
   
   req:flop:ps>=1e10
   
@@ -1422,7 +1422,7 @@ Achievements
  
   name:Have a nice personal computer perfomance.
   
-  desc:Have <b>1 trillion</b> of perfomance per second. (Currently: <b>[flop:ps]</b>)<//><t><i><#6EDB00>Fine achievements earnt: </#> [fine]</i></t>
+  desc:Have <b>1 trillion</b> of perfomance per second. (Currently: <b>[flop:ps]</b>)<//><t><i><#6EDB00>Fine achievements obtained: </#> [fine]</i></t>
   
   req:flop:ps>=1e12
   
@@ -1435,7 +1435,7 @@ Achievements
  
   name:OS Concepts
   
-  desc:Have <b>1</b> operating system. (Currently: <b>[os]</b>)<//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
+  desc:Have <b>1</b> operating system. (Currently: <b>[os]</b>)<//><t><i><#C49814>Poor achievements obtained: </#> [poor]</i></t>
   
   req:1 os
   
@@ -1448,7 +1448,7 @@ Achievements
  
   name:OS Marathon
   
-  desc:Have <b>5</b> operating systems. (Currently: <b>[os]</b>)<//><t><i><#E60000>Destitute achievements earnt: </#> [destitute]</i></t>
+  desc:Have <b>5</b> operating systems. (Currently: <b>[os]</b>)<//><t><i><#E60000>Destitute achievements obtained: </#> [destitute]</i></t>
   
   req:5 os
   
@@ -1461,7 +1461,7 @@ Achievements
  
   name:Windows Pariah
   
-  desc:Have <b>10</b> operating systems. (Currently: <b>[os]</b>)<//><t><i><#FF9500>Decent achievements earnt: </#> [decent]</i></t>
+  desc:Have <b>10</b> operating systems. (Currently: <b>[os]</b>)<//><t><i><#FF9500>Decent achievements obtained: </#> [decent]</i></t>
   
   req:10 os
   
@@ -1474,7 +1474,7 @@ Achievements
  
   name:One simple step
   
-  desc:Have <b>1</b> non-OS upgrades. (Currently: <b>[upg]</b>)<//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
+  desc:Have <b>1</b> non-OS upgrades. (Currently: <b>[upg]</b>)<//><t><i><#C49814>Poor achievements obtained: </#> [poor]</i></t>
   
   req:1 upg
   
@@ -1487,7 +1487,7 @@ Achievements
  
   name:More To-Do's
   
-  desc:Have <b>5</b> non-OS upgrades. (Currently: <b>[upg]</b>)<//><t><i><#E60000>Destitute achievements earnt: </#> [destitute]</i></t>
+  desc:Have <b>5</b> non-OS upgrades. (Currently: <b>[upg]</b>)<//><t><i><#E60000>Destitute achievements obtained: </#> [destitute]</i></t>
   
   req:5 upg
   
@@ -1500,7 +1500,7 @@ Achievements
  
   name:Upgollector
   
-  desc:Have <b>10</b> non-OS upgrades. (Currently: <b>[upg]</b>)<//><t><i><#FF9500>Decent achievements earnt: </#> [decent]</i></t>
+  desc:Have <b>10</b> non-OS upgrades. (Currently: <b>[upg]</b>)<//><t><i><#FF9500>Decent achievements obtained: </#> [decent]</i></t>
   
   req:10 upg
   
@@ -1513,7 +1513,7 @@ Achievements
  
   name:And we have our microchip!
   
-  desc:Have <b>1</b> Intel 80386 processor. (Currently: <b>[i386]</b>)<//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
+  desc:Have <b>1</b> Intel 80386 processor. (Currently: <b>[i386]</b>)<//><t><i><#C49814>Poor achievements obtained: </#> [poor]</i></t>
   
   req:1 i386
   
@@ -1526,7 +1526,7 @@ Achievements
  
   name:It's your damned games!
   
-  desc:Have <b>10</b> Intel 80386 processors. (Currently: <b>[i386]</b>)<//><t><i><#E60000>Destitute achievements earnt: </#> [destitute]</i></t>
+  desc:Have <b>10</b> Intel 80386 processors. (Currently: <b>[i386]</b>)<//><t><i><#E60000>Destitute achievements obtained: </#> [destitute]</i></t>
   
   req:10 i386
   
@@ -1539,7 +1539,7 @@ Achievements
  
   name:Demoscenes everywhere!
   
-  desc:Have <b>50</b> Intel 80386 processors. (Currently: <b>[i386]</b>)<//><t><i><#FF9500>Decent achievements earnt: </#> [decent]</i></t>
+  desc:Have <b>50</b> Intel 80386 processors. (Currently: <b>[i386]</b>)<//><t><i><#FF9500>Decent achievements obtained: </#> [decent]</i></t>
   
   req:50 i386
   
@@ -1552,7 +1552,7 @@ Achievements
  
   name:On OSI, You'll Love It!
   
-  desc:Have <b>100</b> Intel 80386 processors. (Currently: <b>[i386]</b>)<//><t><i><#FFFF00>Minimum achievements earnt: </#> [minimum]</i></t>
+  desc:Have <b>100</b> Intel 80386 processors. (Currently: <b>[i386]</b>)<//><t><i><#FFFF00>Minimum achievements obtained: </#> [minimum]</i></t>
   
   req:100 i386
   
@@ -1565,7 +1565,7 @@ Achievements
  
   name:Bought it on 1992 - already outdated
   
-  desc:Have <b>200</b> Intel 80386 processors. (Currently: <b>[i386]</b>)<//><t><i><#FFFF00>Entry achievements earnt: </#> [entry]</i></t>
+  desc:Have <b>200</b> Intel 80386 processors. (Currently: <b>[i386]</b>)<//><t><i><#FFFF00>Entry achievements obtained: </#> [entry]</i></t>
   
   req:200 i386
   
@@ -1578,7 +1578,7 @@ Achievements
  
   name:Together!
   
-  desc:Have <b>1</b> Intel 80486 processor. (Currently: <b>[i486]</b>)<//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
+  desc:Have <b>1</b> Intel 80486 processor. (Currently: <b>[i486]</b>)<//><t><i><#C49814>Poor achievements obtained: </#> [poor]</i></t>
   
   req:1 i486
   
@@ -1591,7 +1591,7 @@ Achievements
  
   name:Multitasking
   
-  desc:Have <b>10</b> Intel 80486 processors. (Currently: <b>[i486]</b>)<//><t><i><#E60000>Destitute achievements earnt: </#> [destitute]</i></t>
+  desc:Have <b>10</b> Intel 80486 processors. (Currently: <b>[i486]</b>)<//><t><i><#E60000>Destitute achievements obtained: </#> [destitute]</i></t>
   
   req:10 i486
   
@@ -1604,7 +1604,7 @@ Achievements
  
   name:Whenever we recognize our new friends
   
-  desc:Have <b>50</b> Intel 80486 processors. (Currently: <b>[i486]</b>)<//><t><i><#FF9500>Decent achievements earnt: </#> [decent]</i></t>
+  desc:Have <b>50</b> Intel 80486 processors. (Currently: <b>[i486]</b>)<//><t><i><#FF9500>Decent achievements obtained: </#> [decent]</i></t>
   
   req:50 i486
   
@@ -1617,7 +1617,7 @@ Achievements
  
   name:Never slow down on 486
   
-  desc:Have <b>100</b> Intel 80486 processors. (Currently: <b>[i486]</b>)<//><t><i><#FFFF00>Minimum achievements earnt: </#> [minimum]</i></t>
+  desc:Have <b>100</b> Intel 80486 processors. (Currently: <b>[i486]</b>)<//><t><i><#FFFF00>Minimum achievements obtained: </#> [minimum]</i></t>
   
   req:100 i486
   
@@ -1630,7 +1630,7 @@ Achievements
  
   name:Intel Inside
   
-  desc:Have <b>200</b> Intel 80486 processors. (Currently: <b>[i486]</b>)<//><t><i><#FFFF00>Entry achievements earnt: </#> [entry]</i></t>
+  desc:Have <b>200</b> Intel 80486 processors. (Currently: <b>[i486]</b>)<//><t><i><#FFFF00>Entry achievements obtained: </#> [entry]</i></t>
   
   req:200 i486
   
@@ -1643,7 +1643,7 @@ Achievements
  
   name:Pentium-sensitive
   
-  desc:Have <b>1</b> Pentium processor. (Currently: <b>[i586]</b>)<//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
+  desc:Have <b>1</b> Pentium processor. (Currently: <b>[i586]</b>)<//><t><i><#C49814>Poor achievements obtained: </#> [poor]</i></t>
   
   req:1 i586
   
@@ -1656,7 +1656,7 @@ Achievements
  
   name:MMX
   
-  desc:Have <b>10</b> Pentium processors. (Currently: <b>[i586]</b>)<//><t><i><#E60000>Destitute achievements earnt: </#> [destitute]</i></t>
+  desc:Have <b>10</b> Pentium processors. (Currently: <b>[i586]</b>)<//><t><i><#E60000>Destitute achievements obtained: </#> [destitute]</i></t>
   
   req:10 i586
   
@@ -1669,7 +1669,7 @@ Achievements
  
   name:133 MHz
   
-  desc:Have <b>50</b> Pentium processors. (Currently: <b>[i586]</b>)<//><t><i><#FF9500>Decent achievements earnt: </#> [decent]</i></t>
+  desc:Have <b>50</b> Pentium processors. (Currently: <b>[i586]</b>)<//><t><i><#FF9500>Decent achievements obtained: </#> [decent]</i></t>
   
   req:50 i586
   
@@ -1682,7 +1682,7 @@ Achievements
  
   name:OverDrive
   
-  desc:Have <b>100</b> Pentium processors. (Currently: <b>[i586]</b>)<//><t><i><#FFFF00>Minimum achievements earnt: </#> [minimum]</i></t>
+  desc:Have <b>100</b> Pentium processors. (Currently: <b>[i586]</b>)<//><t><i><#FFFF00>Minimum achievements obtained: </#> [minimum]</i></t>
   
   req:100 i586
   
@@ -1695,7 +1695,7 @@ Achievements
  
   name:Never enough
   
-  desc:Have <b>200</b> Pentium processors. (Currently: <b>[i586]</b>)<//><t><i><#FFFF00>Entry achievements earnt: </#> [entry]</i></t>
+  desc:Have <b>200</b> Pentium processors. (Currently: <b>[i586]</b>)<//><t><i><#FFFF00>Entry achievements obtained: </#> [entry]</i></t>
   
   req:200 i586
   
@@ -1708,7 +1708,7 @@ Achievements
  
   name:Pentium-sensitive
   
-  desc:Have <b>1</b> P6 processor. (Currently: <b>[i686]</b>)<//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
+  desc:Have <b>1</b> P6 processor. (Currently: <b>[i686]</b>)<//><t><i><#C49814>Poor achievements obtained: </#> [poor]</i></t>
   
   req:1 i686
   
@@ -1721,7 +1721,7 @@ Achievements
  
   name:MMX
   
-  desc:Have <b>10</b> P6 processors. (Currently: <b>[i686]</b>)<//><t><i><#E60000>Destitute achievements earnt: </#> [destitute]</i></t>
+  desc:Have <b>10</b> P6 processors. (Currently: <b>[i686]</b>)<//><t><i><#E60000>Destitute achievements obtained: </#> [destitute]</i></t>
   
   req:10 i686
   
@@ -1747,7 +1747,7 @@ Achievements
  
   name:OverDrive
   
-  desc:Have <b>100</b> P6 processors. (Currently: <b>[i686]</b>)<//><t><i><#FFFF00>Minimum achievements earnt: </#> [minimum]</i></t>
+  desc:Have <b>100</b> P6 processors. (Currently: <b>[i686]</b>)<//><t><i><#FFFF00>Minimum achievements obtained: </#> [minimum]</i></t>
   
   req:100 i686
   
@@ -1760,7 +1760,7 @@ Achievements
  
   name:Never enough
   
-  desc:Have <b>200</b> P6 processors. (Currently: <b>[i686]</b>)<//><t><i><#FFFF00>Entry achievements earnt: </#> [entry]</i></t>
+  desc:Have <b>200</b> P6 processors. (Currently: <b>[i686]</b>)<//><t><i><#FFFF00>Entry achievements obtained: </#> [entry]</i></t>
   
   req:200 i686
   
@@ -1773,7 +1773,7 @@ Achievements
  
   name:Known as x86_64
   
-  desc:Have <b>1</b> x86-64 processor. (Currently: <b>[x64]</b>)<//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
+  desc:Have <b>1</b> x86-64 processor. (Currently: <b>[x64]</b>)<//><t><i><#C49814>Poor achievements obtained: </#> [poor]</i></t>
   
   req:1 x64
   
@@ -1786,7 +1786,7 @@ Achievements
  
   name:Also known as Intel 64
   
-  desc:Have <b>10</b> x86-64 processors. (Currently: <b>[x64]</b>)<//><t><i><#E60000>Destitute achievements earnt: </#> [destitute]</i></t>
+  desc:Have <b>10</b> x86-64 processors. (Currently: <b>[x64]</b>)<//><t><i><#E60000>Destitute achievements obtained: </#> [destitute]</i></t>
   
   req:10 x64
   
@@ -1799,7 +1799,7 @@ Achievements
  
   name:SSE
   
-  desc:Have <b>50</b> x86-64 processors. (Currently: <b>[x64]</b>)<//><t><i><#FF9500>Decent achievements earnt: </#> [decent]</i></t>
+  desc:Have <b>50</b> x86-64 processors. (Currently: <b>[x64]</b>)<//><t><i><#FF9500>Decent achievements obtained: </#> [decent]</i></t>
   
   req:50 x64
   
@@ -1812,7 +1812,7 @@ Achievements
  
   name:No-Execute bit
   
-  desc:Have <b>100</b> x86-64 processors. (Currently: <b>[x64]</b>)<//><t><i><#FFFF00>Minimum achievements earnt: </#> [minimum]</i></t>
+  desc:Have <b>100</b> x86-64 processors. (Currently: <b>[x64]</b>)<//><t><i><#FFFF00>Minimum achievements obtained: </#> [minimum]</i></t>
   
   req:100 x64
   
@@ -1825,7 +1825,7 @@ Achievements
  
   name:It's not enough!
   
-  desc:Have <b>200</b> x86-64 processors. (Currently: <b>[x64]</b>)<//><t><i><#FFFF00>Entry achievements earnt: </#> [entry]</i></t>
+  desc:Have <b>200</b> x86-64 processors. (Currently: <b>[x64]</b>)<//><t><i><#FFFF00>Entry achievements obtained: </#> [entry]</i></t>
   
   req:200 x64
   
@@ -1838,7 +1838,7 @@ Achievements
  
   name:I am the one
   
-  desc:Have <b>1</b> Itanium processor. (Currently: <b>[IA64]</b>)<//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
+  desc:Have <b>1</b> Itanium processor. (Currently: <b>[IA64]</b>)<//><t><i><#C49814>Poor achievements obtained: </#> [poor]</i></t>
   
   req:1 IA64
   
@@ -1851,7 +1851,7 @@ Achievements
  
   name:Still known as Intel 64
   
-  desc:Have <b>10</b> Itanium processors. (Currently: <b>[IA64]</b>)<//><t><i><#E60000>Destitute achievements earnt: </#> [destitute]</i></t>
+  desc:Have <b>10</b> Itanium processors. (Currently: <b>[IA64]</b>)<//><t><i><#E60000>Destitute achievements obtained: </#> [destitute]</i></t>
   
   req:10 IA64
   
@@ -1864,7 +1864,7 @@ Achievements
  
   name:This for servers?
   
-  desc:Have <b>50</b> Itanium processors. (Currently: <b>[IA64]</b>)<//><t><i><#FF9500>Decent achievements earnt: </#> [decent]</i></t>
+  desc:Have <b>50</b> Itanium processors. (Currently: <b>[IA64]</b>)<//><t><i><#FF9500>Decent achievements obtained: </#> [decent]</i></t>
   
   req:50 IA64
   
@@ -1877,7 +1877,7 @@ Achievements
  
   name:Microsoft Windows for Server Computers
   
-  desc:Have <b>100</b> Itanium processors. (Currently: <b>[IA64]</b>)<//><t><i><#FFFF00>Minimum achievements earnt: </#> [minimum]</i></t>
+  desc:Have <b>100</b> Itanium processors. (Currently: <b>[IA64]</b>)<//><t><i><#FFFF00>Minimum achievements obtained: </#> [minimum]</i></t>
   
   req:100 IA64
   
@@ -1890,7 +1890,7 @@ Achievements
  
   name:Mommy, Why is There a Server in the House?
   
-  desc:Have <b>200</b> Itanium processors. (Currently: <b>[IA64]</b>)<//><t><i><#FFFF00>Entry achievements earnt: </#> [entry]</i></t>
+  desc:Have <b>200</b> Itanium processors. (Currently: <b>[IA64]</b>)<//><t><i><#FFFF00>Entry achievements obtained: </#> [entry]</i></t>
   
   req:200 IA64
   
@@ -1903,7 +1903,7 @@ Achievements
  
   name:We're just starting!
   
-  desc:Clicked <b>15</b> times to boost (Currently: <b>[boost]</b>)<//><t><i><#C49814>Poor achievements earnt: </#> [poor]</i></t>
+  desc:Clicked <b>15</b> times to boost (Currently: <b>[boost]</b>)<//><t><i><#C49814>Poor achievements obtained: </#> [poor]</i></t>
   
   req:15 boost
   
@@ -1916,7 +1916,7 @@ Achievements
  
   name:And yet we're still here!
   
-  desc:Clicked <b>100</b> times to boost (Currently: <b>[boost]</b>)<//><t><i><#E60000>Destitute achievements earnt: </#> [destitute]</i></t>
+  desc:Clicked <b>100</b> times to boost (Currently: <b>[boost]</b>)<//><t><i><#E60000>Destitute achievements obtained: </#> [destitute]</i></t>
   
   req:100 boost
   
@@ -1929,7 +1929,7 @@ Achievements
  
   name:Click to go
   
-  desc:Clicked <b>300</b> times to boost (Currently: <b>[boost]</b>)<//><t><i><#FF9500>Decent achievements earnt: </#> [decent]</i></t>
+  desc:Clicked <b>300</b> times to boost (Currently: <b>[boost]</b>)<//><t><i><#FF9500>Decent achievements obtained: </#> [decent]</i></t>
   
   req:300 boost
   
@@ -1942,7 +1942,7 @@ Achievements
  
   name:You're clicking still
   
-  desc:Clicked <b>1000</b> times to boost (Currently: <b>[boost]</b>)<//><t><i><#FFFF00>Minimum achievements earnt: </#> [minimum]</i></t>
+  desc:Clicked <b>1000</b> times to boost (Currently: <b>[boost]</b>)<//><t><i><#FFFF00>Minimum achievements obtained: </#> [minimum]</i></t>
   
   req:1000 boost
   
@@ -1955,7 +1955,7 @@ Achievements
  
   name:Make it thousands
   
-  desc:Clicked <b>2000</b> times to boost (Currently: <b>[boost]</b>)<//><t><i><#FFFF00>Entry achievements earnt: </#> [entry]</i></t>
+  desc:Clicked <b>2000</b> times to boost (Currently: <b>[boost]</b>)<//><t><i><#FFFF00>Entry achievements obtained: </#> [entry]</i></t>
   
   req:2000 boost
   
@@ -1968,7 +1968,7 @@ Achievements
  
   name:The mouse
   
-  desc:Clicked <b>5000</b> times to boost (Currently: <b>[boost]</b>)<//><t><i><#BBBBBB>Modest achievements earnt: </#> [modest]</i></t>
+  desc:Clicked <b>5000</b> times to boost (Currently: <b>[boost]</b>)<//><t><i><#BBBBBB>Modest achievements obtained: </#> [modest]</i></t>
   
   req:5000 boost
   
@@ -1981,7 +1981,7 @@ Achievements
  
   name:Overclocking
   
-  desc:Clicked <b>10000</b> times to boost (Currently: <b>[boost]</b>)<//><t><i><#FFFFFF>Fair achievements earnt: </#> [fair]</i></t>
+  desc:Clicked <b>10000</b> times to boost (Currently: <b>[boost]</b>)<//><t><i><#FFFFFF>Fair achievements obtained: </#> [fair]</i></t>
   
   req:10000 boost
   
@@ -1994,7 +1994,7 @@ Achievements
  
   name:It have to give power
   
-  desc:Clicked <b>15000</b> times to boost (Currently: <b>[boost]</b>)<//><t><i><#6EDB00>Fine achievements earnt: </#> [fine]</i></t>
+  desc:Clicked <b>15000</b> times to boost (Currently: <b>[boost]</b>)<//><t><i><#6EDB00>Fine achievements obtained: </#> [fine]</i></t>
   
   req:15000 boost
   
