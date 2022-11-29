@@ -4,7 +4,7 @@ Desc: The code name's OSIdle, and it's another Spyonclear's project.
 by:Qavs
 Created: 17/03/2022
 Updated: 27/11/2022
-Version: 45
+Version: 46
  
 Settings
 
@@ -2265,7 +2265,7 @@ Achievements
   
   desc:Have <b>1 seconds</b> (1). (Currently: <b>[onesec]</b>)<//><t><i><#C49814>Poor achievements obtained: </#> [poor]</i></t>
   
-  req:1 sec
+  req:1 onesec
   
   icon:icons[0,0] icons[1,4]
   
@@ -2278,7 +2278,7 @@ Achievements
   
   desc:Have <b>1 minute</b> (60). (Currently: <b>[onesec]</b>)<//><t><i><#E60000>Destitute achievements obtained: </#> [destitute]</i></t>
   
-  req:60 sec
+  req:60 onesec
   
   icon:icons[1,0] icons[1,4]
   
@@ -2291,7 +2291,7 @@ Achievements
   
   desc:Have <b>5 minutes</b> (300). (Currently: <b>[onesec]</b>)<//><t><i><#FF9500>Decent achievements obtained: </#> [decent]</i></t>
   
-  req:300 sec
+  req:300 onesec
   
   icon:icons[2,0] icons[1,4]
   
@@ -2304,7 +2304,7 @@ Achievements
   
   desc:Have <b>15 minutes</b> (900). (Currently: <b>[onesec]</b>)<//><t><i><#FFFF00>Minimum achievements obtained: </#> [minimum]</i></t>
   
-  req:900 sec
+  req:900 onesec
   
   icon:icons[3,0] icons[1,4]
   
@@ -2317,7 +2317,7 @@ Achievements
   
   desc:Have <b>30 minutes</b> (1 800). (Currently: <b>[onesec]</b>)<//><t><i><#BBBBBB>Entry achievements obtained: </#> [entry]</i></t>
   
-  req:1800 sec
+  req:1800 onesec
   
   icon:icons[4,0] icons[1,4]
   
@@ -2330,7 +2330,7 @@ Achievements
   
   desc:Have <b>1 hour</b> (3 600). (Currently: <b>[onesec]</b>)<//><t><i><#BBBBBB>Modest achievements obtained: </#> [modest]</i></t>
   
-  req:3600 sec
+  req:3600 onesec
   
   icon:icons[5,0] icons[1,4]
   
@@ -2343,7 +2343,7 @@ Achievements
   
   desc:Have <b>2 hours</b> (7 200). (Currently: <b>[onesec]</b>)<//><#FFFFFF>Fair achievements obtained: </#> [fair]</i></t>
   
-  req:7200 sec
+  req:7200 onesec
   
   icon:icons[6,0] icons[1,4]
   
