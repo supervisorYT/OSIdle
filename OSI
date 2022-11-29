@@ -4,7 +4,7 @@ Desc: The code name's OSIdle, and it's another Spyonclear's project.
 by:Qavs
 Created: 17/03/2022
 Updated: 27/11/2022
-Version: 44
+Version: 45
  
 Settings
 
@@ -255,8 +255,24 @@ Resources
   name:Extreme achievement
   
   always hidden
+  
+ *onesec
+  
+  name:Just a lil sec
+  
+  always hidden
 
 Buildings
+
+*secgen
+
+  name:Second generator
+
+  desc:Not intended to be viewed ingame.
+
+  on tick:yield 1 onesec
+  
+  always hidden
 
  *i386
 
@@ -1380,6 +1396,22 @@ Upgrades
 
   Icon:icons[6,0] icons[2,5] icons[3,4]
   
+ *onesecu1
+
+  name:One second... forever!
+
+  desc:Multiply your perfomance every 100 kiloseconds
+
+  cost:5e14 flop
+
+  passive:multiply flop yield of tag:microprocessor by (1+0.00001*onesec)
+
+  req:1000 onesec
+  
+  on earn:yield 1 upg
+
+  Icon:icons[6,0] icons[2,5] icons[3,4]
+  
 Achievements
 
  *flopM1
@@ -2226,3 +2258,95 @@ Achievements
   
   on earn:yield 1 ach
   on earn:yield 1 fine
+  
+ *secM1
+ 
+  name:Welcome to Spyonclear Code Name OSIdle
+  
+  desc:Have <b>1 seconds</b> (1). (Currently: <b>[onesec]</b>)<//><t><i><#C49814>Poor achievements obtained: </#> [poor]</i></t>
+  
+  req:1 sec
+  
+  icon:icons[0,0] icons[1,4]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 poor
+  
+ *secM2
+ 
+  name:Just one touch
+  
+  desc:Have <b>1 minute</b> (60). (Currently: <b>[onesec]</b>)<//><t><i><#E60000>Destitute achievements obtained: </#> [destitute]</i></t>
+  
+  req:60 sec
+  
+  icon:icons[1,0] icons[1,4]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 destitute
+  
+ *secM3
+ 
+  name:That's just the beginning
+  
+  desc:Have <b>5 minutes</b> (300). (Currently: <b>[onesec]</b>)<//><t><i><#FF9500>Decent achievements obtained: </#> [decent]</i></t>
+  
+  req:300 sec
+  
+  icon:icons[2,0] icons[1,4]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 decent
+  
+ *secM4
+ 
+  name:Stay tuned!
+  
+  desc:Have <b>15 minutes</b> (900). (Currently: <b>[onesec]</b>)<//><t><i><#FFFF00>Minimum achievements obtained: </#> [minimum]</i></t>
+  
+  req:900 sec
+  
+  icon:icons[3,0] icons[1,4]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 minimum
+  
+ *secM5
+ 
+  name:Just 15 more minutes!
+  
+  desc:Have <b>30 minutes</b> (1 800). (Currently: <b>[onesec]</b>)<//><t><i><#BBBBBB>Entry achievements obtained: </#> [entry]</i></t>
+  
+  req:1800 sec
+  
+  icon:icons[4,0] icons[1,4]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 entry
+  
+ *secM6
+ 
+  name:Next up, the second hour!
+  
+  desc:Have <b>1 hour</b> (3 600). (Currently: <b>[onesec]</b>)<//><t><i><#BBBBBB>Modest achievements obtained: </#> [modest]</i></t>
+  
+  req:3600 sec
+  
+  icon:icons[5,0] icons[1,4]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 modest
+
+ *secM7
+ 
+  name:Teaching you everything about PC building in 2 hours and less
+  
+  desc:Have <b>2 hours</b> (7 200). (Currently: <b>[onesec]</b>)<//><#FFFFFF>Fair achievements obtained: </#> [fair]</i></t>
+  
+  req:7200 sec
+  
+  icon:icons[6,0] icons[1,4]
+  
+  on earn:yield 1 ach
+  on earn:yield 1 fair
+
