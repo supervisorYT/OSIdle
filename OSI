@@ -272,6 +272,8 @@ Buildings
 
   on tick:yield 1 onesec
   
+  start with:1
+  
   always hidden
 
  *i386
