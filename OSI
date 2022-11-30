@@ -1,10 +1,10 @@
 Let's make a game!
-Name: Spyonclear Code Name OSIdle A26 Classic
+Name: Spyonclear Code Name OSIdle A27 Infdev
 Desc: The code name's OSIdle, and it's another Spyonclear's project.
 by:Qavs
 Created: 17/03/2022
-Updated: 27/11/2022
-Version: 46
+Updated: 01/12/2022
+Version: 48
  
 Settings
 
@@ -1157,6 +1157,134 @@ Upgrades
   on earn:yield 1 os
 
   Icon:icons[9,12]
+    
+ *AMD64OS1
+
+  name:Windows 8
+
+  desc:Powering AMD64 with increased X2 perfomance
+
+  cost:6e13 flop
+
+  passive:multiply yield of AMD64 by 2
+
+  req:1 AMD64
+  
+  on earn:yield 1 os
+
+  Icon:icons[8,3] icons[0,2] icons[9,12]
+
+ *AMD64OS2
+
+  name:Windows 8.1
+
+  desc:Powering AMD64 with increased X2 perfomance
+
+  cost:2e14 flop
+
+  passive:multiply yield of AMD64 by 2
+
+  req:15 AMD64
+  
+  on earn:yield 1 os
+
+  Icon:icons[8,3] icons[1,2] icons[9,12]
+  
+ *AMD64OS3
+
+  name:Windows Server 2012
+
+  desc:Powering AMD64 with increased X2 perfomance
+
+  cost:4e15 flop
+
+  passive:multiply yield of AMD64 by 2
+
+  req:35 AMD64
+  
+  on earn:yield 1 os
+
+  Icon:icons[22,3] icons[20,2] icons[11,2] icons[2,2] icons[9,12]
+  
+ *AMD64OS4
+
+  name:Windows 10
+
+  desc:Powering AMD64 with increased X2 perfomance
+
+  cost:8e16 flop
+
+  passive:multiply yield of AMD64 by 2
+
+  req:60 AMD64
+  
+  on earn:yield 1 os
+
+  Icon:icons[1,3] icons[0,2] icons[9,12]
+  
+ *AMD64OS5
+
+  name:Windows Server 2016
+
+  desc:Powering AMD64 with increased X2 perfomance
+
+  cost:3e18 flop
+
+  passive:multiply yield of AMD64 by 2
+
+  req:95 AMD64
+  
+  on earn:yield 1 os
+
+  Icon:icons[22,3] icons[20,2] icons[11,2] icons[6,2] icons[9,12]
+  
+ *AMD64OS6
+
+  name:Windows 11
+
+  desc:Powering AMD64 with increased X2 perfomance
+
+  cost:6e21 flop
+
+  passive:multiply yield of AMD64 by 2
+
+  req:120 AMD64
+  
+  on earn:yield 1 os
+
+  Icon:icons[1,3] icons[1,2] icons[10,12]
+  
+ *AMD64OS7
+
+  name:Windows Server 2019
+
+  desc:Powering AMD64 with increased X2 perfomance
+
+  cost:1e23 flop
+
+  passive:multiply yield of AMD64 by 2
+
+  req:150 AMD64
+  
+  on earn:yield 1 os
+
+  Icon:icons[22,3] icons[20,2] icons[11,2] icons[9,2] icons[9,12]
+  
+ *AMD64OS8
+
+  name:Windows Server 2022
+
+  desc:Powering AMD64 with increased X2 perfomance
+
+  cost:3e24 flop
+
+  passive:multiply yield of AMD64 by 2
+
+  req:200 AMD64
+  
+  on earn:yield 1 os
+
+  Icon:icons[22,3] icons[20,2] icons[12,2] icons[2,2] icons[9,12]
   
  *click1
 
